@@ -1,0 +1,6 @@
+.GetStarted,
+.IntroductionPage { 
+	position: relative; width: 50%; height: 50%; margin: auto; text-align: center; transform: translateY(50%);
+	h1 { margin: 0; }
+	.RaisedButton { position: absolute; right: 0; bottom: 0; }
+}
