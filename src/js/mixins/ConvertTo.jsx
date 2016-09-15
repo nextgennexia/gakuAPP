@@ -1,7 +1,7 @@
 import HiraganaDic from '../../db/hiraganaDictionary.json';
 import KatakanaDic from '../../db/katakanaDictionary.json';
 
-let TextFieldMixin = {
+let ConvertTo = {
 	getInitialState: function() {
 		return {
 			text: '',
@@ -9,16 +9,16 @@ let TextFieldMixin = {
 			convertTo: 1
 		};
 	},
-	handleJpConvert: function(event) {
+	convertToKana: function(event) {
 		let 
-			textFieldValue = event.target.value,
+			value = event.target.value,
 			dictionary = this.state.dictionary;
 
 		for (let key in dictionary) {
-			textFieldValue = textFieldValue.replace(new RegExp(key, 'g'), dictionary[key])
+			value = value.replace(new RegExp(key, 'g'), dictionary[key])
 		}
 
-		this.setState({text: textFieldValue});
+		this.setState({text: value});
 	},
 	changeKana: function(event) {
 		if (event.keyCode === ' '.charCodeAt(0) && event.ctrlKey) {
@@ -29,4 +29,4 @@ let TextFieldMixin = {
 	}
 };
 
-export default TextFieldMixin;
+export default ConvertTo;
