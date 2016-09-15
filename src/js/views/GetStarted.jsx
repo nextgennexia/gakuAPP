@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import RaisedButton from 'material-ui/RaisedButton';
-
 import CSS from '../../css/views/GetStarted.scss';
 
 const GetStarted = React.createClass({

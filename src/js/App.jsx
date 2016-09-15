@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router';
 import injectTapEventPlugin from 'react-tap-event-plugin';
-injectTapEventPlugin();
-
 import CSS from '../css/App.scss'
+
+injectTapEventPlugin();
 
 const App = React.createClass({
 	render: function() {
