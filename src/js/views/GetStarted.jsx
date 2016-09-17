@@ -1,21 +1,15 @@
 import React from 'react';
-import {Link} from 'react-router';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import RaisedButton from 'material-ui/RaisedButton';
+import RaisedButton from '../components/RaisedButton.jsx';
 import '../../css/views/GetStarted.scss';
 
-const GetStarted = React.createClass({
+export default React.createClass({
   render: function () {
     return (
-      <div className='GetStarted'>
+      <div className='get-started'>
         <h1>学APP</h1>
         <p>Добро пожаловать в 学APP, web приложение, которое поможет Вам в изучении японского языка!</p>
-        <MuiThemeProvider>
-          <RaisedButton label='Приступить!' href='#/introduction'/>
-        </MuiThemeProvider>
+        <RaisedButton label='Приступить!' to='/introduction' />
       </div>
     );
   }
 });
-
-export default GetStarted;

@@ -13,5 +13,5 @@ ReactDOM.render(
 			<Route path='/get-started' component={GetStarted} />
 			<Route path='/introduction' component={Introduction} />
 		</Route>
-	</Router>, document.getElementById('GakuApp')
+	</Router>, document.getElementById('gaku-app')
 );

@@ -1,15 +1,15 @@
 import React from 'react';
+import ToggleButton from '../../components/ToggleButton.jsx';
 import Input from '../../components/Input.jsx';
 
-const Introduction = React.createClass({
+export default React.createClass({
   render: function () {
     return (
-      <div className='IntroductionPage'>
+      <div className='introduction-page'>
         <h1>学APP</h1>
-        <Input />
+        <Input placeholder='ka->カ' />
+        <ToggleButton className='small' />
       </div>
     );
   }
 });
-
-export default Introduction;
