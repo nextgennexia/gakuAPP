@@ -1,6 +1,20 @@
 .get-started,
 .introduction-page {
-	position: relative; width: 50%; height: 50%; margin: auto; text-align: center; transform: translateY(50%);
-	h1 { margin: 0; }
-	.raised-button { position: absolute; right: 0; bottom: 0; }
+	position: absolute; width: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%); padding-bottom: 60px;
+	h1 { margin: 0; text-align: center; }
+	h3 { text-align: center; }
+	p { text-indent: 1.5em; text-align: left; }
+	ul {
+		list-style-type: none; counter-reset: item; margin: 0; padding: 0 15px;
+		& > li {
+			display: table; counter-increment: item; margin-bottom: 0.6em; text-align: left;
+			&:before { content: counters(item, '.') '. '; display: table-cell; padding-right: 0.6em; }
+		}
+		li ul { padding: 0.6em 0; }
+		li ul > li {
+			margin: 0;
+			&:before { content: counters(item, '.') ' '; }
+		}
+	}
+	.g-button { position: absolute; bottom: 10px; right: 0; }
 }

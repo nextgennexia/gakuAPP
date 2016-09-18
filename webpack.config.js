@@ -1,4 +1,5 @@
 var webpack = require('webpack');
+const fonts = `fonts/[name].[ext]`;
 
 module.exports = {
     entry: "./src/js/router.js",
@@ -28,6 +29,20 @@ module.exports = {
                 loader: "style-loader!css-loader!autoprefixer-loader!sass-loader",
                 exclude: [/node_modules/, /public/]
             },
+            {
+                test: /\.woff(\?.*)?$/,
+                loader: `url?prefix=fonts/&name=${fonts}&limit=10000&mimetype=application/font-woff`
+            },
+            {
+                test: /\.woff2(\?.*)?$/,
+                loader: `url?prefix=fonts/&name=${fonts}&limit=10000&mimetype=application/font-woff2`
+            },
+            {
+                test: /\.ttf(\?.*)?$/,
+                loader: `url?prefix=fonts/&name=${fonts}&limit=10000&mimetype=application/octet-stream`
+            },
+            {test: /\.eot(\?.*)?$/, loader: `file?prefix=fonts/&name=${fonts}`},
+            {test: /\.svg(\?.*)?$/, loader: `url?prefix=fonts/&name=${fonts}&limit=10000&mimetype=image/svg+xml`},
             {
                 test: /\.gif$/,
                 loader: "url-loader?limit=10000&mimetype=image/gif"

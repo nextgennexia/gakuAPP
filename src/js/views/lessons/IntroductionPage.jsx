@@ -1,6 +1,7 @@
 import React from 'react';
 import ToggleButton from '../../components/ToggleButton.jsx';
 import Input from '../../components/Input.jsx';
+import RaisedButton from '../../components/RaisedButton.jsx';
 
 export default React.createClass({
   render: function () {
@@ -9,6 +10,7 @@ export default React.createClass({
         <h1>学APP</h1>
         <Input placeholder='ka->カ' />
         <ToggleButton className='small' />
+        <RaisedButton label='Приступить!' to='/new-words' />
       </div>
     );
   }

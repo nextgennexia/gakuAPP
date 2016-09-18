@@ -1,0 +1,11 @@
+.new-words-page { width: 50%; height: calc(100% - 105px); margin: auto; }
+.wrapper { width: 100%; height: calc(100% - 55px); overflow: auto; }
+.table { display: table; width: calc(100% - 30px); padding: 0 24px; border-collapse: collapse; border-spacing: 0; background-color: #fff; }
+.row {
+  display: table-row; height: 48px; color: rgba(0, 0, 0, 0.870588); border-bottom: 1px solid #e0e0e0;
+  &.active .cell { background-color: #e0e0e0; }
+}
+.cell { display: table-cell; padding: 0 0 0 24px; height: 48px; line-height: 48px; text-align: left; font-size: 18px; overflow: hidden; white-space: pre-line; }
+.kana { width: 37%; }
+.kanji { width: 20%; }
+.g-button { margin: 12px 0; }

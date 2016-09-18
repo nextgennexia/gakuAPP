@@ -5,7 +5,7 @@
   "main": "js/router.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "devserver": "webpack-dev-server --debug --hot --devtool eval-source-map --output-pathinfo --watch --colors --inline --content-base public --port 8090 --host 192.168.1.39",
+    "devserver": "webpack-dev-server --debug --hot --devtool eval-source-map --output-pathinfo --watch --colors --inline --content-base public --port 8090 --host 192.168.1.39 -s ./src/fonts",
     "build": "webpack -p"
   },
   "author": "Gorshkov Ivan",
