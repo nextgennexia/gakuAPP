@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import '../css/App.scss'
 
@@ -8,8 +9,8 @@ export default React.createClass({
   render: function () {
     return (
       <div className='app'>
-        <div>
-          <span className='gaku-logo'>学APP</span>
+        <div　className='header'>
+          <Link className='gaku-logo' to='/'>学APP</Link>
         </div>
         {this.props.children}
       </div>

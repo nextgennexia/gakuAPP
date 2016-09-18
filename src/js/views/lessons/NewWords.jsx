@@ -3,6 +3,8 @@ import Words from '../../../db/lessons/lesson1/words.json';
 import '../../../css/views/lessons/NewWords.scss';
 import BackButton from '../../components/BackButton.jsx';
 
+import ScrollArea from 'react-scrollbar';
+
 export default React.createClass({
   getInitialState: function() {
     return {
@@ -19,7 +21,7 @@ export default React.createClass({
     return (
       <div className='new-words-page'>
         <h1>Новые слова</h1>
-        <div className='wrapper'>
+        <ScrollArea className='wrapper' speed={1} >
           <div className='table'>
             {
               this.state.dataWords.map(function(el){
@@ -38,7 +40,7 @@ export default React.createClass({
               })
             }
           </div>
-        </div>
+        </ScrollArea>
         <BackButton label='Назад' />
       </div>
     );
