@@ -1,5 +1,4 @@
 import React from 'react';
-import Actions from '../actions/Actions';
 import '../../css/components/RaisedButton.scss';
 
 const RaisedButton = React.createClass({
@@ -10,9 +9,6 @@ const RaisedButton = React.createClass({
     }
   },
   handleClick: function () {
-    if (this.props.lesson) {
-      Actions.chooseLesson(this.props.lesson);
-    }
     this.context.router.push(this.props.to);
   },
   render: function () {
