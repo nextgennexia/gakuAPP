@@ -1,16 +1,24 @@
 import React from 'react';
 import Words from '../../../db/lessons/lesson1/words.json';
+import StateMixin from 'reflux-state-mixin';
+import Actions from '../../actions/Actions';
+import LessonStores from '../../../js/stores/LessonsStore.jsx';
+import LoginStore from '../../stores/LoginStore.jsx';
 import '../../../css/views/lessons/NewWords.scss';
 import BackButton from '../../components/BackButton.jsx';
 
 import ScrollArea from 'react-scrollbar';
 
 export default React.createClass({
+  mixins: [StateMixin.connect(LessonStores), StateMixin.connect(LoginStore)],
   getInitialState: function() {
     return {
       dataWords: Words,
       selected: ''
     }
+  },
+  componentDidMount: function() {
+    Actions.chooseLesson(this.state.currentUser.lessonsData.newWords);
   },
   setSelect: function(id) {
     this.setState({selected: id});
@@ -24,7 +32,7 @@ export default React.createClass({
         <ScrollArea className='wrapper' speed={1} >
           <div className='table'>
             {
-              this.state.dataWords.map(function(el){
+              this.state.data.map(function(el){
                 return (
                   <div
                     key={el.id}
