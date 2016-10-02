@@ -1,0 +1,4 @@
+.auth {
+  position: relative; width: 90%; height: calc(100% - 60px); margin: auto;
+  .login, .signup { position: absolute; top: 50%; width: 100%; transform: translateY(-50%); text-align: center; }
+}

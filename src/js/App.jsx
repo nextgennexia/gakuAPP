@@ -1,8 +1,11 @@
+// Libraries
 import React from 'react';
-import { Link } from 'react-router';
+//Components
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import Login from '../js/views/auth/Login.jsx';
 import injectTapEventPlugin from 'react-tap-event-plugin';
+//Views
+import Header from './views/Header.jsx';
+//Style
 import '../css/App.scss'
 
 injectTapEventPlugin();
@@ -12,11 +15,7 @@ export default React.createClass({
     return (
       <MuiThemeProvider>
         <div className='app'>
-          <div　className='header'>
-            <Link className='gaku-logo' to='/'>学APP</Link>
-            <Link to='/auth'>学APP</Link>
-            <Login />
-          </div>
+          <Header />
           {this.props.children}
         </div>
       </MuiThemeProvider>

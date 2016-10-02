@@ -1,7 +1,11 @@
 html { height: 100%;  }
 body { height: 100%; margin: 0; padding: 0; background: #f6f5f3; font-size: 16px; }
 p { margin: 15px; }
-#gaku-app,
-.app { height: calc(100% - 60px);  }
-.header { height: 60px; background-color: #5f9ea0; }
-.gaku-logo { margin: 0 15px; font-family: 'Kozuka Mincho Pro'; font-size: 23px; line-height: 60px; font-weight: 100; color: #fff; text-decoration: none; }
+#gaku-app { height: 100%; }
+.app { height: 100%; }
+.clearfix:after { content: ''; display: block; clear: both; }
+.dn { display: none !important; }
+.ta-l { text-align: left; }
+.of-h { overflow: hidden !important; }
+section,
+nav{ overflow: hidden; padding: 5px; }

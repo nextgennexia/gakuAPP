@@ -14,6 +14,9 @@ export default {
   deleteNote(noteId) {
     return axios.delete(`${apiPrefix}/notes/${noteId}`);
   },
+  getUser(data) {
+    return axios.post(`${apiPrefix}/users`, data);
+  },
   listUsers() {
     return axios.get(`${apiPrefix}/users`);
   },

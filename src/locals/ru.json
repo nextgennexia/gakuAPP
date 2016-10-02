@@ -1,0 +1,50 @@
+{
+  "main_menu": [
+    {
+      "id": 1,
+      "module": "japanese-syllabary",
+      "furigana": "ごじゅうおん",
+      "kanji": "五十音",
+      "local_lang": "Японский алфавит",
+      "icon": "あ"
+    },
+    {
+      "id": 2,
+      "module": "new-words",
+      "furigana": "あたらしいことば",
+      "kanji": "新しい言葉",
+      "local_lang": "Новые слова",
+      "icon": "spellcheck"
+    },
+    {
+      "id": 3,
+      "module": "japanese-characters",
+      "furigana": "かんじ",
+      "kanji": "漢字",
+      "local_lang": "Иероглифы",
+      "icon": "字"
+    },
+    {
+      "id": 4,
+      "module": "tasks",
+      "furigana": "もんだい",
+      "kanji": "問題",
+      "local_lang": "Задачи",
+      "icon": "subject"
+    }
+  ],
+  "japanese_syllabary": [
+    {
+      "id": 1,
+      "module": "hiragana",
+      "kana": "ひらがな",
+      "local_lang": "Хирагана"
+    },
+    {
+      "id": 2,
+      "module": "katakana",
+      "kana": "カタカナ",
+      "local_lang": "Катакана"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+.japanese-syllabary {
+  width: 100%; height: calc(100% - 60px); user-select: none;
+  ul { margin: 0; padding: 0; list-style-type: none; text-align: center; }
+  .menu-group {
+    position: relative; width: 50%; height: 100%; float: left;
+    &:hover { background-color: #e8e8e8; box-shadow: rgba(0, 0, 0, .117647) 0 1px 6px, rgba(0, 0, 0, .117647) 0 1px 4px; cursor: pointer; }
+  }
+  .menu-item { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: auto; height: auto; }
+  .sub-item { margin: 5px 0; font-size: 24px; }
+}

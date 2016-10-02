@@ -1,22 +1,33 @@
+//Libraries
 import Reflux from 'reflux';
 import StateMixin from 'reflux-state-mixin';
-import Actions from '../actions/Actions';
+//Actions
+import AuthActions from '../actions/AuthActions';
+//Components
 import api from '../../api/index';
 
 export default Reflux.createStore({
   mixins: [StateMixin.store],
-  listenables: Actions,
+  listenables: AuthActions,
   onLoginUser: function(login, password) {
-    api.listUsers().then((data) => {
-      let users = data.data;
+    api.getUser({
+      auth: {
+        login: login,
+        password: password,
+      },
+      getUser: true}).then((data) => {
+        let user = data.data;
     });
   },
   onCreateUser: function (login, password, firstName, lastName) {
     api.createUser({
-      nickName: login,
-      password: password,
-      firstName: firstName,
-      lastName: lastName
+      auth: {
+        nickName: login,
+        password: password,
+        firstName: firstName,
+        lastName: lastName
+      },
+      createUser: true
     }).then(() => {
       this.onLoginUser(login, password);
     });

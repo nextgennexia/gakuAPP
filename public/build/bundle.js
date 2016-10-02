@@ -39,16 +39,3 @@
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(0);
 /******/ })
-/************************************************************************/
-/******/ ([
-/* 0 */
-/***/ function(module, exports) {
-
-	"use strict";
-
-	var name = "Katya";
-
-	console.log("Hello " + name + "!");
-
-/***/ }
-/******/ ]);

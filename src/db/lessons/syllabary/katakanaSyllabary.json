@@ -1,0 +1,647 @@
+[
+  {
+    "id": 1,
+    "column": [
+      {
+        "id": 1,
+        "name": "a",
+        "symbol": "ア",
+        "more_symbols": []
+      },
+      {
+        "id": 2,
+        "name": "ka",
+        "symbol": "カ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "ga",
+            "symbol": "ガ"
+          },
+          {
+            "id": 2,
+            "name": "kya",
+            "symbol": "キャ"
+          },
+          {
+            "id": 3,
+            "name": "gya",
+            "symbol": "ギャ"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "sa",
+        "symbol": "サ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "za",
+            "symbol": "ザ"
+          },
+          {
+            "id": 2,
+            "name": "sha",
+            "symbol": "シャ"
+          },
+          {
+            "id": 3,
+            "name": "jya",
+            "symbol": "ジャ"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "ta",
+        "symbol": "タ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "da",
+            "symbol": "ダ"
+          },
+          {
+            "id": 2,
+            "name": "cha",
+            "symbol": "チャ"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "na",
+        "symbol": "ナ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "nya",
+            "symbol": "ニャ"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "ha",
+        "symbol": "ハ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "hya",
+            "symbol": "ヒャ"
+          },
+          {
+            "id": 2,
+            "name": "ba",
+            "symbol": "バ"
+          },
+          {
+            "id": 3,
+            "name": "bya",
+            "symbol": "ビャ"
+          },
+          {
+            "id": 4,
+            "name": "pa",
+            "symbol": "パ"
+          },
+          {
+            "id": 5,
+            "name": "pya",
+            "symbol": "ピャ"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "ma",
+        "symbol": "マ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "mya",
+            "symbol": "ミャ"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "ya",
+        "symbol": "ヤ",
+        "more_symbols": []
+      },
+      {
+        "id": 9,
+        "name": "ra",
+        "symbol": "ラ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "rya",
+            "symbol": "リャ"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "wa",
+        "symbol": "ワ",
+        "more_symbols": []
+      },
+      {
+        "id": 11,
+        "name": "n",
+        "symbol": "ン",
+        "more_symbols": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "column": [
+      {
+        "id": 1,
+        "name": "i",
+        "symbol": "イ",
+        "more_symbols": []
+      },
+      {
+        "id": 2,
+        "name": "ki",
+        "symbol": "キ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "gi",
+            "symbol": "ギ"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "shi",
+        "symbol": "シ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "ji",
+            "symbol": "ジ"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "chi",
+        "symbol": "チ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "ji",
+            "symbol": "ヂ"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "ni",
+        "symbol": "二",
+        "more_symbols": []
+      },
+      {
+        "id": 6,
+        "name": "hi",
+        "symbol": "ヒ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "bi",
+            "symbol": "ビ"
+          },
+          {
+            "id": 2,
+            "name": "pi",
+            "symbol": "ピ"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "mi",
+        "symbol": "ミ",
+        "more_symbols": []
+      },
+      {
+        "id": 8,
+        "name": "",
+        "symbol": "",
+        "more_symbols": []
+      },
+      {
+        "id": 9,
+        "name": "ri",
+        "symbol": "リ",
+        "more_symbols": []
+      },
+      {
+        "id": 10,
+        "name": "",
+        "symbol": "",
+        "more_symbols": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "column": [
+      {
+        "id": 1,
+        "name": "u",
+        "symbol": "ウ",
+        "more_symbols": []
+      },
+      {
+        "id": 2,
+        "name": "ku",
+        "symbol": "ク",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "gu",
+            "symbol": "グ"
+          },
+          {
+            "id": 2,
+            "name": "kyu",
+            "symbol": "キュ"
+          },
+          {
+            "id": 3,
+            "name": "gyu",
+            "symbol": "ギュ"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "su",
+        "symbol": "ス",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "zu",
+            "symbol": "ズ"
+          },
+          {
+            "id": 2,
+            "name": "shu",
+            "symbol": "シュ"
+          },
+          {
+            "id": 3,
+            "name": "jyu",
+            "symbol": "ジュ"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "tsu",
+        "symbol": "ツ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "zu",
+            "symbol": "ヅ"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "nu",
+        "symbol": "ヌ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "nyu",
+            "symbol": "ニュ"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "fu",
+        "symbol": "フ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "hyu",
+            "symbol": "ヒュ"
+          },
+          {
+            "id": 2,
+            "name": "bu",
+            "symbol": "ブ"
+          },
+          {
+            "id": 3,
+            "name": "byu",
+            "symbol": "ビュ"
+          },
+          {
+            "id": 4,
+            "name": "pu",
+            "symbol": "プ"
+          },
+          {
+            "id": 5,
+            "name": "pyu",
+            "symbol": "ピュ"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "mu",
+        "symbol": "ム",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "myu",
+            "symbol": "ミュ"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "yu",
+        "symbol": "ユ",
+        "more_symbols": []
+      },
+      {
+        "id": 9,
+        "name": "ru",
+        "symbol": "ル",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "ryu",
+            "symbol": "リュ"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "",
+        "symbol": "",
+        "more_symbols": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "column": [
+      {
+        "id": 1,
+        "name": "e",
+        "symbol": "エ",
+        "more_symbols": []
+      },
+      {
+        "id": 2,
+        "name": "ke",
+        "symbol": "ケ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "ge",
+            "symbol": "ゲ"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "se",
+        "symbol": "セ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "ze",
+            "symbol": "ゼ"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "te",
+        "symbol": "テ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "de",
+            "symbol": "デ"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "ne",
+        "symbol": "ネ",
+        "more_symbols": []
+      },
+      {
+        "id": 6,
+        "name": "he",
+        "symbol": "ヘ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "be",
+            "symbol": "ベ"
+          },
+          {
+            "id": 2,
+            "name": "pe",
+            "symbol": "ペ"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "me",
+        "symbol": "メ",
+        "more_symbols": []
+      },
+      {
+        "id": 8,
+        "name": "",
+        "symbol": "",
+        "more_symbols": []
+      },
+      {
+        "id": 9,
+        "name": "re",
+        "symbol": "レ",
+        "more_symbols": []
+      },
+      {
+        "id": 10,
+        "name": "",
+        "symbol": "",
+        "more_symbols": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "column": [
+      {
+        "id": 1,
+        "name": "o",
+        "symbol": "オ",
+        "more_symbols": []
+      },
+      {
+        "id": 2,
+        "name": "ko",
+        "symbol": "コ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "go",
+            "symbol": "ゴ"
+          },
+          {
+            "id": 2,
+            "name": "kyo",
+            "symbol": "キョ"
+          },
+          {
+            "id": 3,
+            "name": "gyo",
+            "symbol": "ギョ"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "so",
+        "symbol": "ソ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "zo",
+            "symbol": "ゾ"
+          },
+          {
+            "id": 2,
+            "name": "shyo",
+            "symbol": "ショ"
+          },
+          {
+            "id": 3,
+            "name": "jyo",
+            "symbol": "ジョ"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "to",
+        "symbol": "ト",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "do",
+            "symbol": "ド"
+          },
+          {
+            "id": 2,
+            "name": "chyo",
+            "symbol": "チョ"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "no",
+        "symbol": "ノ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "nyo",
+            "symbol": "ニョ"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "ho",
+        "symbol": "ホ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "hyo",
+            "symbol": "ヒョ"
+          },
+          {
+            "id": 2,
+            "name": "bo",
+            "symbol": "ボ"
+          },
+          {
+            "id": 3,
+            "name": "byo",
+            "symbol": "ビョ"
+          },
+          {
+            "id": 4,
+            "name": "po",
+            "symbol": "ポ"
+          },
+          {
+            "id": 5,
+            "name": "pyo",
+            "symbol": "ピョ"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "mo",
+        "symbol": "モ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "myo",
+            "symbol": "ミョ"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "yo",
+        "symbol": "ヨ",
+        "more_symbols": []
+      },
+      {
+        "id": 9,
+        "name": "ro",
+        "symbol": "ロ",
+        "more_symbols": [
+          {
+            "id": 1,
+            "name": "ryo",
+            "symbol": "リョ"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "wo",
+        "symbol": "ヲ",
+        "more_symbols": []
+      }
+    ]
+  }
+]

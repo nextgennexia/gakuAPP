@@ -5,5 +5,14 @@
     "name": "notes",
     "host": "localhost",
     "port": 27017
+  },
+  "session": {
+    "secret": "nextgennexia",
+    "key": "sid",
+    "cookie": {
+      "path": "/",
+      "httpOnly": true,
+      "maxAge": null
+    }
   }
 }

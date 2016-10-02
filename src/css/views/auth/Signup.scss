@@ -1,0 +1,8 @@
+.signup {
+  .wrapper { display: inline-block; margin: auto; text-align: left; }
+  .signup-info { display: inline-block; width: 30%; text-align: left; vertical-align: top; }
+  .signup-control { display: inline-block; width: 70%; }
+  .text-field { display: block !important; }
+  .button { margin: 10px 0; text-align: center; }
+  .reset-password { display: inline-block; padding: 10px 5px; font-size: 14px; color: #333; cursor: pointer; }
+}
