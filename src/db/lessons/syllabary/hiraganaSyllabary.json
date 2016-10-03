@@ -4,154 +4,181 @@
     "column": [
       {
         "id": 1,
-        "name": "a",
+        "romaji": "a",
+        "hint": ["a"],
         "symbol": "あ",
         "more_symbols": []
       },
       {
         "id": 2,
-        "name": "ka",
+        "romaji": "ka",
+        "hint": ["ka"],
         "symbol": "か",
         "more_symbols": [
           {
             "id": 1,
-            "name": "ga",
+            "romaji": "ga",
+            "hint": ["ga"],
             "symbol": "が"
           },
           {
             "id": 2,
-            "name": "kya",
+            "romaji": "kya",
+            "hint": ["kya"],
             "symbol": "きゃ"
           },
           {
             "id": 3,
-            "name": "gya",
+            "romaji": "gya",
+            "hint": ["gya"],
             "symbol": "ぎゃ"
           }
         ]
       },
       {
         "id": 3,
-        "name": "sa",
+        "romaji": "sa",
+        "hint": ["sa"],
         "symbol": "さ",
         "more_symbols": [
           {
             "id": 1,
-            "name": "za",
+            "romaji": "za",
+            "hint": ["za"],
             "symbol": "ざ"
           },
           {
             "id": 2,
-            "name": "sha",
+            "romaji": "sha",
+            "hint": ["sha", "sya"],
             "symbol": "しゃ"
           },
           {
             "id": 3,
-            "name": "jya",
+            "romaji": "jya",
+            "hint": ["jya", "ja"],
             "symbol": "じゃ"
           }
         ]
       },
       {
         "id": 4,
-        "name": "ta",
+        "romaji": "ta",
+        "hint": ["ta"],
         "symbol": "た",
         "more_symbols": [
           {
             "id": 1,
-            "name": "da",
+            "romaji": "da",
+            "hint": ["da"],
             "symbol": "だ"
           },
           {
             "id": 2,
-            "name": "cha",
+            "romaji": "cha",
+            "hint": ["cha", "tya"],
             "symbol": "ちゃ"
           }
         ]
       },
       {
         "id": 5,
-        "name": "na",
+        "romaji": "na",
+        "hint": ["na"],
         "symbol": "な",
         "more_symbols": [
           {
             "id": 1,
-            "name": "nya",
+            "romaji": "nya",
+            "hint": ["nya"],
             "symbol": "にゃ"
           }
         ]
       },
       {
         "id": 6,
-        "name": "ha",
+        "romaji": "ha",
+        "hint": ["ha"],
         "symbol": "は",
         "more_symbols": [
           {
             "id": 1,
-            "name": "hya",
+            "romaji": "hya",
+            "hint": ["hya"],
             "symbol": "ひゃ"
           },
           {
             "id": 2,
-            "name": "ba",
+            "romaji": "ba",
+            "hint": ["ba"],
             "symbol": "ば"
           },
           {
             "id": 3,
-            "name": "bya",
+            "romaji": "bya",
+            "hint": ["bya"],
             "symbol": "びゃ"
           },
           {
             "id": 4,
-            "name": "pa",
+            "romaji": "pa",
+            "hint": ["pa"],
             "symbol": "ぱ"
           },
           {
             "id": 5,
-            "name": "pya",
+            "romaji": "pya",
+            "hint": ["pya"],
             "symbol": "ぴゃ"
           }
         ]
       },
       {
         "id": 7,
-        "name": "ma",
+        "romaji": "ma",
+        "hint": ["ma"],
         "symbol": "ま",
         "more_symbols": [
           {
             "id": 1,
-            "name": "mya",
+            "romaji": "mya",
+            "hint": ["mya"],
             "symbol": "みゃ"
           }
         ]
       },
       {
         "id": 8,
-        "name": "ya",
+        "romaji": "ya",
+        "hint": ["ya"],
         "symbol": "や",
         "more_symbols": []
       },
       {
         "id": 9,
-        "name": "ra",
+        "romaji": "ra",
+        "hint": ["ra"],
         "symbol": "ら",
         "more_symbols": [
           {
             "id": 1,
-            "name": "rya",
+            "romaji": "rya",
+            "hint": ["rya"],
             "symbol": "りゃ"
           }
         ]
       },
       {
         "id": 10,
-        "name": "wa",
+        "romaji": "wa",
+        "hint": ["wa"],
         "symbol": "わ",
         "more_symbols": []
       },
       {
         "id": 11,
-        "name": "n",
+        "romaji": "n",
+        "hint": ["nn", "n␣"],
         "symbol": "ん",
         "more_symbols": []
       }
@@ -162,90 +189,103 @@
     "column": [
       {
         "id": 1,
-        "name": "i",
+        "romaji": "i",
+        "hint": ["i"],
         "symbol": "い",
         "more_symbols": []
       },
       {
         "id": 2,
-        "name": "ki",
+        "romaji": "ki",
+        "hint": ["ki"],
         "symbol": "き",
         "more_symbols": [
           {
             "id": 1,
-            "name": "gi",
+            "romaji": "gi",
+            "hint": ["gi"],
             "symbol": "ぎ"
           }
         ]
       },
       {
         "id": 3,
-        "name": "shi",
+        "romaji": "shi",
+        "hint": ["shi", "si"],
         "symbol": "し",
         "more_symbols": [
           {
             "id": 1,
-            "name": "ji",
+            "romaji": "ji",
+            "hint": ["ji", "zi"],
             "symbol": "じ"
           }
         ]
       },
       {
         "id": 4,
-        "name": "chi",
+        "romaji": "chi",
         "symbol": "ち",
+        "hint": ["chi", "ti"],
         "more_symbols": [
           {
             "id": 1,
-            "name": "ji",
+            "romaji": "ji",
+            "hint": ["dji", "di"],
             "symbol": "ぢ"
           }
         ]
       },
       {
         "id": 5,
-        "name": "ni",
+        "romaji": "ni",
+        "hint": ["ni"],
         "symbol": "に",
         "more_symbols": []
       },
       {
         "id": 6,
-        "name": "hi",
+        "romaji": "hi",
+        "hint": ["hi"],
         "symbol": "ひ",
         "more_symbols": [
           {
             "id": 1,
-            "name": "bi",
+            "romaji": "bi",
+            "hint": ["bi"],
             "symbol": "び"
           },
           {
             "id": 2,
-            "name": "pi",
+            "romaji": "pi",
+            "hint": ["pi"],
             "symbol": "ぴ"
           }
         ]
       },
       {
         "id": 7,
-        "name": "mi",
+        "romaji": "mi",
+        "hint": ["mi"],
         "symbol": "み",
         "more_symbols": []
       },
       {
         "id": 8,
-        "name": "",
+        "romaji": "",
         "symbol": "",
         "more_symbols": []
       },
       {
         "id": 9,
-        "name": "ri",
+        "romaji": "ri",
+        "hint": ["ri"],
         "symbol": "り",
         "more_symbols": []
       },
       {
         "id": 10,
-        "name": "",
+        "romaji": "",
         "symbol": "",
         "more_symbols": []
       }
@@ -256,143 +296,167 @@
     "column": [
       {
         "id": 1,
-        "name": "u",
+        "romaji": "u",
+        "hint": ["u"],
         "symbol": "う",
         "more_symbols": []
       },
       {
         "id": 2,
-        "name": "ku",
+        "romaji": "ku",
+        "hint": ["ku"],
         "symbol": "く",
         "more_symbols": [
           {
             "id": 1,
-            "name": "gu",
+            "romaji": "gu",
+            "hint": ["gu"],
             "symbol": "ぐ"
           },
           {
             "id": 2,
-            "name": "kyu",
+            "romaji": "kyu",
+            "hint": ["kyu"],
             "symbol": "きゅ"
           },
           {
             "id": 3,
-            "name": "gyu",
+            "romaji": "gyu",
+            "hint": ["gyu"],
             "symbol": "ぎゅ"
           }
         ]
       },
       {
         "id": 3,
-        "name": "su",
+        "romaji": "su",
+        "hint": ["su"],
         "symbol": "す",
         "more_symbols": [
           {
             "id": 1,
-            "name": "zu",
+            "romaji": "zu",
+            "hint": ["zu"],
             "symbol": "ず"
           },
           {
             "id": 2,
-            "name": "shu",
+            "romaji": "shu",
+            "hint": ["shu", "syu"],
             "symbol": "しゅ"
           },
           {
             "id": 3,
-            "name": "jyu",
+            "romaji": "jyu",
+            "hint": ["ju", "jyu"],
             "symbol": "じゅ"
           }
         ]
       },
       {
         "id": 4,
-        "name": "tsu",
+        "romaji": "tsu",
+        "hint": ["tu", "tsu"],
         "symbol": "つ",
         "more_symbols": [
           {
             "id": 1,
-            "name": "zu",
+            "romaji": "zu",
+            "hint": ["du", "dju"],
             "symbol": "づ"
           }
         ]
       },
       {
         "id": 5,
-        "name": "nu",
+        "romaji": "nu",
+        "hint": ["nu"],
         "symbol": "ぬ",
         "more_symbols": [
           {
             "id": 1,
-            "name": "nyu",
+            "romaji": "nyu",
+            "hint": ["nyu"],
             "symbol": "にゅ"
           }
         ]
       },
       {
         "id": 6,
-        "name": "fu",
+        "romaji": "fu",
+        "hint": ["fu", "hu"],
         "symbol": "ふ",
         "more_symbols": [
           {
             "id": 1,
-            "name": "hyu",
+            "romaji": "hyu",
+            "hint": ["hyu"],
             "symbol": "ひゅ"
           },
           {
             "id": 2,
-            "name": "bu",
+            "romaji": "bu",
+            "hint": ["bu"],
             "symbol": "ぶ"
           },
           {
             "id": 3,
-            "name": "byu",
+            "romaji": "byu",
+            "hint": ["byu"],
             "symbol": "びゅ"
           },
           {
             "id": 4,
-            "name": "pu",
+            "romaji": "pu",
+            "hint": ["pu"],
             "symbol": "ぷ"
           },
           {
             "id": 5,
-            "name": "pyu",
+            "romaji": "pyu",
+            "hint": ["pyu"],
             "symbol": "ぴゅ"
           }
         ]
       },
       {
         "id": 7,
-        "name": "mu",
+        "romaji": "mu",
+        "hint": ["mu"],
         "symbol": "む",
         "more_symbols": [
           {
             "id": 1,
-            "name": "myu",
+            "romaji": "myu",
+            "hint": ["myu"],
             "symbol": "みゅ"
           }
         ]
       },
       {
         "id": 8,
-        "name": "yu",
+        "romaji": "yu",
+        "hint": ["yu"],
         "symbol": "ゆ",
         "more_symbols": []
       },
       {
         "id": 9,
-        "name": "ru",
+        "romaji": "ru",
+        "hint": ["ru"],
         "symbol": "る",
         "more_symbols": [
           {
             "id": 1,
-            "name": "ryu",
+            "romaji": "ryu",
+            "hint": ["ryu"],
             "symbol": "りゅ"
           }
         ]
       },
       {
         "id": 10,
-        "name": "",
+        "romaji": "",
         "symbol": "",
         "more_symbols": []
       }
@@ -403,90 +467,103 @@
     "column": [
       {
         "id": 1,
-        "name": "e",
+        "romaji": "e",
+        "hint": ["e"],
         "symbol": "え",
         "more_symbols": []
       },
       {
         "id": 2,
-        "name": "ke",
+        "romaji": "ke",
+        "hint": ["ke"],
         "symbol": "け",
         "more_symbols": [
           {
             "id": 1,
-            "name": "ge",
+            "romaji": "ge",
+            "hint": ["ge"],
             "symbol": "げ"
           }
         ]
       },
       {
         "id": 3,
-        "name": "se",
+        "romaji": "se",
+        "hint": ["se"],
         "symbol": "せ",
         "more_symbols": [
           {
             "id": 1,
-            "name": "ze",
+            "romaji": "ze",
+            "hint": ["ze"],
             "symbol": "ぜ"
           }
         ]
       },
       {
         "id": 4,
-        "name": "te",
+        "romaji": "te",
+        "hint": ["te"],
         "symbol": "て",
         "more_symbols": [
           {
             "id": 1,
-            "name": "de",
+            "romaji": "de",
+            "hint": ["de"],
             "symbol": "で"
           }
         ]
       },
       {
         "id": 5,
-        "name": "ne",
+        "romaji": "ne",
+        "hint": ["ne"],
         "symbol": "ね",
         "more_symbols": []
       },
       {
         "id": 6,
-        "name": "he",
+        "romaji": "he",
+        "hint": ["he"],
         "symbol": "へ",
         "more_symbols": [
           {
             "id": 1,
-            "name": "be",
+            "romaji": "be",
+            "hint": ["be"],
             "symbol": "べ"
           },
           {
             "id": 2,
-            "name": "pe",
+            "romaji": "pe",
+            "hint": ["pe"],
             "symbol": "ぺ"
           }
         ]
       },
       {
         "id": 7,
-        "name": "me",
+        "romaji": "me",
+        "hint": ["me"],
         "symbol": "め",
         "more_symbols": []
       },
       {
         "id": 8,
-        "name": "",
+        "romaji": "",
         "symbol": "",
         "more_symbols": []
       },
       {
         "id": 9,
-        "name": "re",
+        "romaji": "re",
+        "hint": ["re"],
         "symbol": "れ",
         "more_symbols": []
       },
       {
         "id": 10,
-        "name": "",
+        "romaji": "",
         "symbol": "",
         "more_symbols": []
       }
@@ -497,148 +574,174 @@
     "column": [
       {
         "id": 1,
-        "name": "o",
+        "romaji": "o",
+        "hint": ["o"],
         "symbol": "お",
         "more_symbols": []
       },
       {
         "id": 2,
-        "name": "ko",
+        "romaji": "ko",
+        "hint": ["ko"],
         "symbol": "こ",
         "more_symbols": [
           {
             "id": 1,
-            "name": "go",
+            "romaji": "go",
+            "hint": ["go"],
             "symbol": "ご"
           },
           {
             "id": 2,
-            "name": "kyo",
+            "romaji": "kyo",
+            "hint": ["kyo"],
             "symbol": "きょ"
           },
           {
             "id": 3,
-            "name": "gyo",
+            "romaji": "gyo",
+            "hint": ["gyo"],
             "symbol": "ぎょ"
           }
         ]
       },
       {
         "id": 3,
-        "name": "so",
+        "romaji": "so",
+        "hint": ["so"],
         "symbol": "そ",
         "more_symbols": [
           {
             "id": 1,
-            "name": "zo",
+            "romaji": "zo",
+            "hint": ["zo"],
             "symbol": "ぞ"
           },
           {
             "id": 2,
-            "name": "shyo",
+            "romaji": "shyo",
+            "hint": ["shyo", "sho", "syo"],
             "symbol": "しょ"
           },
           {
             "id": 3,
-            "name": "jyo",
+            "romaji": "jyo",
+            "hint": ["jyo", "jo"],
             "symbol": "じょ"
           }
         ]
       },
       {
         "id": 4,
-        "name": "to",
+        "romaji": "to",
+        "hint": ["to"],
         "symbol": "と",
         "more_symbols": [
           {
             "id": 1,
-            "name": "do",
+            "romaji": "do",
+            "hint": ["do"],
             "symbol": "ど"
           },
           {
             "id": 2,
-            "name": "chyo",
+            "romaji": "chyo",
+            "hint": ["chyo", "tyo", "cho"],
             "symbol": "ちょ"
           }
         ]
       },
       {
         "id": 5,
-        "name": "no",
+        "romaji": "no",
+        "hint": ["no"],
         "symbol": "の",
         "more_symbols": [
           {
             "id": 1,
-            "name": "nyo",
+            "romaji": "nyo",
+            "hint": ["nyo"],
             "symbol": "にょ"
           }
         ]
       },
       {
         "id": 6,
-        "name": "ho",
+        "romaji": "ho",
+        "hint": ["ho"],
         "symbol": "ほ",
         "more_symbols": [
           {
             "id": 1,
-            "name": "hyo",
+            "romaji": "hyo",
+            "hint": ["hyo"],
             "symbol": "ひょ"
           },
           {
             "id": 2,
-            "name": "bo",
+            "romaji": "bo",
+            "hint": ["bo"],
             "symbol": "ぼ"
           },
           {
             "id": 3,
-            "name": "byo",
+            "romaji": "byo",
+            "hint": ["byo"],
             "symbol": "びょ"
           },
           {
             "id": 4,
-            "name": "po",
+            "romaji": "po",
+            "hint": ["po"],
             "symbol": "ぽ"
           },
           {
             "id": 5,
-            "name": "pyo",
+            "romaji": "pyo",
+            "hint": ["pyo"],
             "symbol": "ぴょ"
           }
         ]
       },
       {
         "id": 7,
-        "name": "mo",
+        "romaji": "mo",
+        "hint": ["mo"],
         "symbol": "も",
         "more_symbols": [
           {
             "id": 1,
-            "name": "myo",
+            "romaji": "myo",
+            "hint": ["myo"],
             "symbol": "みょ"
           }
         ]
       },
       {
         "id": 8,
-        "name": "yo",
+        "romaji": "yo",
+        "hint": ["yo"],
         "symbol": "よ",
         "more_symbols": []
       },
       {
         "id": 9,
-        "name": "ro",
+        "romaji": "ro",
+        "hint": ["ro"],
         "symbol": "ろ",
         "more_symbols": [
           {
             "id": 1,
-            "name": "ryo",
+            "romaji": "ryo",
+            "hint": ["ryo"],
             "symbol": "りょ"
           }
         ]
       },
       {
         "id": 10,
-        "name": "wo",
+        "romaji": "wo",
+        "hint": ["wo"],
         "symbol": "を",
         "more_symbols": []
       }

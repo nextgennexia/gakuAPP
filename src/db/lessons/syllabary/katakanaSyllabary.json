@@ -5,27 +5,32 @@
       {
         "id": 1,
         "name": "a",
+        "hint": ["a"],
         "symbol": "ア",
         "more_symbols": []
       },
       {
         "id": 2,
         "name": "ka",
+        "hint": ["ka"],
         "symbol": "カ",
         "more_symbols": [
           {
             "id": 1,
             "name": "ga",
+            "hint": ["ga"],
             "symbol": "ガ"
           },
           {
             "id": 2,
             "name": "kya",
+            "hint": ["kya"],
             "symbol": "キャ"
           },
           {
             "id": 3,
             "name": "gya",
+            "hint": ["gya"],
             "symbol": "ギャ"
           }
         ]
@@ -33,21 +38,25 @@
       {
         "id": 3,
         "name": "sa",
+        "hint": ["sa"],
         "symbol": "サ",
         "more_symbols": [
           {
             "id": 1,
             "name": "za",
+            "hint": ["za"],
             "symbol": "ザ"
           },
           {
             "id": 2,
             "name": "sha",
+            "hint": ["sha", "sya"],
             "symbol": "シャ"
           },
           {
             "id": 3,
             "name": "jya",
+            "hint": ["jya", "ja"],
             "symbol": "ジャ"
           }
         ]
@@ -55,16 +64,19 @@
       {
         "id": 4,
         "name": "ta",
+        "hint": ["ta"],
         "symbol": "タ",
         "more_symbols": [
           {
             "id": 1,
             "name": "da",
+            "hint": ["da"],
             "symbol": "ダ"
           },
           {
             "id": 2,
             "name": "cha",
+            "hint": ["cha", "tya"],
             "symbol": "チャ"
           }
         ]
@@ -72,11 +84,13 @@
       {
         "id": 5,
         "name": "na",
+        "hint": ["na"],
         "symbol": "ナ",
         "more_symbols": [
           {
             "id": 1,
             "name": "nya",
+            "hint": ["nya"],
             "symbol": "ニャ"
           }
         ]
@@ -84,31 +98,37 @@
       {
         "id": 6,
         "name": "ha",
+        "hint": ["ha"],
         "symbol": "ハ",
         "more_symbols": [
           {
             "id": 1,
             "name": "hya",
+            "hint": ["hya"],
             "symbol": "ヒャ"
           },
           {
             "id": 2,
             "name": "ba",
+            "hint": ["ba"],
             "symbol": "バ"
           },
           {
             "id": 3,
             "name": "bya",
+            "hint": ["bya"],
             "symbol": "ビャ"
           },
           {
             "id": 4,
             "name": "pa",
+            "hint": ["pa"],
             "symbol": "パ"
           },
           {
             "id": 5,
             "name": "pya",
+            "hint": ["pya"],
             "symbol": "ピャ"
           }
         ]
@@ -116,11 +136,13 @@
       {
         "id": 7,
         "name": "ma",
+        "hint": ["ma"],
         "symbol": "マ",
         "more_symbols": [
           {
             "id": 1,
             "name": "mya",
+            "hint": ["mya"],
             "symbol": "ミャ"
           }
         ]
@@ -128,17 +150,20 @@
       {
         "id": 8,
         "name": "ya",
+        "hint": ["ya"],
         "symbol": "ヤ",
         "more_symbols": []
       },
       {
         "id": 9,
         "name": "ra",
+        "hint": ["ra"],
         "symbol": "ラ",
         "more_symbols": [
           {
             "id": 1,
             "name": "rya",
+            "hint": ["rya"],
             "symbol": "リャ"
           }
         ]
@@ -146,12 +171,14 @@
       {
         "id": 10,
         "name": "wa",
+        "hint": ["wa"],
         "symbol": "ワ",
         "more_symbols": []
       },
       {
         "id": 11,
         "name": "n",
+        "hint": ["nn", "n␣"],
         "symbol": "ン",
         "more_symbols": []
       }
@@ -163,17 +190,20 @@
       {
         "id": 1,
         "name": "i",
+        "hint": ["i"],
         "symbol": "イ",
         "more_symbols": []
       },
       {
         "id": 2,
         "name": "ki",
+        "hint": ["ki"],
         "symbol": "キ",
         "more_symbols": [
           {
             "id": 1,
             "name": "gi",
+            "hint": ["gi"],
             "symbol": "ギ"
           }
         ]
@@ -181,11 +211,13 @@
       {
         "id": 3,
         "name": "shi",
+        "hint": ["shi", "si"],
         "symbol": "シ",
         "more_symbols": [
           {
             "id": 1,
             "name": "ji",
+            "hint": ["ji", "zi"],
             "symbol": "ジ"
           }
         ]
@@ -193,11 +225,13 @@
       {
         "id": 4,
         "name": "chi",
+        "hint": ["chi", "ti"],
         "symbol": "チ",
         "more_symbols": [
           {
             "id": 1,
             "name": "ji",
+            "hint": ["dji", "di"],
             "symbol": "ヂ"
           }
         ]
@@ -205,22 +239,26 @@
       {
         "id": 5,
         "name": "ni",
+        "hint": ["ni"],
         "symbol": "二",
         "more_symbols": []
       },
       {
         "id": 6,
         "name": "hi",
+        "hint": ["hi"],
         "symbol": "ヒ",
         "more_symbols": [
           {
             "id": 1,
             "name": "bi",
+            "hint": ["bi"],
             "symbol": "ビ"
           },
           {
             "id": 2,
             "name": "pi",
+            "hint": ["pi"],
             "symbol": "ピ"
           }
         ]
@@ -228,6 +266,7 @@
       {
         "id": 7,
         "name": "mi",
+        "hint": ["mi"],
         "symbol": "ミ",
         "more_symbols": []
       },
@@ -240,6 +279,7 @@
       {
         "id": 9,
         "name": "ri",
+        "hint": ["ri"],
         "symbol": "リ",
         "more_symbols": []
       },
@@ -257,27 +297,32 @@
       {
         "id": 1,
         "name": "u",
+        "hint": ["u"],
         "symbol": "ウ",
         "more_symbols": []
       },
       {
         "id": 2,
         "name": "ku",
+        "hint": ["ku"],
         "symbol": "ク",
         "more_symbols": [
           {
             "id": 1,
             "name": "gu",
+            "hint": ["gu"],
             "symbol": "グ"
           },
           {
             "id": 2,
             "name": "kyu",
+            "hint": ["kyu"],
             "symbol": "キュ"
           },
           {
             "id": 3,
             "name": "gyu",
+            "hint": ["gyu"],
             "symbol": "ギュ"
           }
         ]
@@ -285,21 +330,25 @@
       {
         "id": 3,
         "name": "su",
+        "hint": ["su"],
         "symbol": "ス",
         "more_symbols": [
           {
             "id": 1,
             "name": "zu",
+            "hint": ["zu"],
             "symbol": "ズ"
           },
           {
             "id": 2,
             "name": "shu",
+            "hint": ["shu", "syu"],
             "symbol": "シュ"
           },
           {
             "id": 3,
             "name": "jyu",
+            "hint": ["ju", "jyu"],
             "symbol": "ジュ"
           }
         ]
@@ -307,11 +356,13 @@
       {
         "id": 4,
         "name": "tsu",
+        "hint": ["tu", "tsu"],
         "symbol": "ツ",
         "more_symbols": [
           {
             "id": 1,
             "name": "zu",
+            "hint": ["du", "dju"],
             "symbol": "ヅ"
           }
         ]
@@ -319,11 +370,13 @@
       {
         "id": 5,
         "name": "nu",
+        "hint": ["nu"],
         "symbol": "ヌ",
         "more_symbols": [
           {
             "id": 1,
             "name": "nyu",
+            "hint": ["nyu"],
             "symbol": "ニュ"
           }
         ]
@@ -331,31 +384,37 @@
       {
         "id": 6,
         "name": "fu",
+        "hint": ["fu", "hu"],
         "symbol": "フ",
         "more_symbols": [
           {
             "id": 1,
             "name": "hyu",
+            "hint": ["hyu"],
             "symbol": "ヒュ"
           },
           {
             "id": 2,
             "name": "bu",
+            "hint": ["bu"],
             "symbol": "ブ"
           },
           {
             "id": 3,
             "name": "byu",
+            "hint": ["byu"],
             "symbol": "ビュ"
           },
           {
             "id": 4,
             "name": "pu",
+            "hint": ["pu"],
             "symbol": "プ"
           },
           {
             "id": 5,
             "name": "pyu",
+            "hint": ["pyu"],
             "symbol": "ピュ"
           }
         ]
@@ -363,11 +422,13 @@
       {
         "id": 7,
         "name": "mu",
+        "hint": ["mu"],
         "symbol": "ム",
         "more_symbols": [
           {
             "id": 1,
             "name": "myu",
+            "hint": ["myu"],
             "symbol": "ミュ"
           }
         ]
@@ -375,17 +436,20 @@
       {
         "id": 8,
         "name": "yu",
+        "hint": ["yu"],
         "symbol": "ユ",
         "more_symbols": []
       },
       {
         "id": 9,
         "name": "ru",
+        "hint": ["ru"],
         "symbol": "ル",
         "more_symbols": [
           {
             "id": 1,
             "name": "ryu",
+            "hint": ["ryu"],
             "symbol": "リュ"
           }
         ]
@@ -404,17 +468,20 @@
       {
         "id": 1,
         "name": "e",
+        "hint": ["e"],
         "symbol": "エ",
         "more_symbols": []
       },
       {
         "id": 2,
         "name": "ke",
+        "hint": ["ke"],
         "symbol": "ケ",
         "more_symbols": [
           {
             "id": 1,
             "name": "ge",
+            "hint": ["ge"],
             "symbol": "ゲ"
           }
         ]
@@ -422,11 +489,13 @@
       {
         "id": 3,
         "name": "se",
+        "hint": ["se"],
         "symbol": "セ",
         "more_symbols": [
           {
             "id": 1,
             "name": "ze",
+            "hint": ["ze"],
             "symbol": "ゼ"
           }
         ]
@@ -434,11 +503,13 @@
       {
         "id": 4,
         "name": "te",
+        "hint": ["te"],
         "symbol": "テ",
         "more_symbols": [
           {
             "id": 1,
             "name": "de",
+            "hint": ["de"],
             "symbol": "デ"
           }
         ]
@@ -446,22 +517,26 @@
       {
         "id": 5,
         "name": "ne",
+        "hint": ["ne"],
         "symbol": "ネ",
         "more_symbols": []
       },
       {
         "id": 6,
         "name": "he",
+        "hint": ["he"],
         "symbol": "ヘ",
         "more_symbols": [
           {
             "id": 1,
             "name": "be",
+            "hint": ["be"],
             "symbol": "ベ"
           },
           {
             "id": 2,
             "name": "pe",
+            "hint": ["pe"],
             "symbol": "ペ"
           }
         ]
@@ -469,6 +544,7 @@
       {
         "id": 7,
         "name": "me",
+        "hint": ["me"],
         "symbol": "メ",
         "more_symbols": []
       },
@@ -481,6 +557,7 @@
       {
         "id": 9,
         "name": "re",
+        "hint": ["re"],
         "symbol": "レ",
         "more_symbols": []
       },
@@ -498,27 +575,32 @@
       {
         "id": 1,
         "name": "o",
+        "hint": ["o"],
         "symbol": "オ",
         "more_symbols": []
       },
       {
         "id": 2,
         "name": "ko",
+        "hint": ["ko"],
         "symbol": "コ",
         "more_symbols": [
           {
             "id": 1,
             "name": "go",
+            "hint": ["go"],
             "symbol": "ゴ"
           },
           {
             "id": 2,
             "name": "kyo",
+            "hint": ["kyo"],
             "symbol": "キョ"
           },
           {
             "id": 3,
             "name": "gyo",
+            "hint": ["gyo"],
             "symbol": "ギョ"
           }
         ]
@@ -526,21 +608,25 @@
       {
         "id": 3,
         "name": "so",
+        "hint": ["so"],
         "symbol": "ソ",
         "more_symbols": [
           {
             "id": 1,
             "name": "zo",
+            "hint": ["zo"],
             "symbol": "ゾ"
           },
           {
             "id": 2,
             "name": "shyo",
+            "hint": ["shyo", "sho", "syo"],
             "symbol": "ショ"
           },
           {
             "id": 3,
             "name": "jyo",
+            "hint": ["jyo", "jo"],
             "symbol": "ジョ"
           }
         ]
@@ -548,16 +634,19 @@
       {
         "id": 4,
         "name": "to",
+        "hint": ["to"],
         "symbol": "ト",
         "more_symbols": [
           {
             "id": 1,
             "name": "do",
+            "hint": ["do"],
             "symbol": "ド"
           },
           {
             "id": 2,
             "name": "chyo",
+            "hint": ["chyo", "tyo", "cho"],
             "symbol": "チョ"
           }
         ]
@@ -565,11 +654,13 @@
       {
         "id": 5,
         "name": "no",
+        "hint": ["no"],
         "symbol": "ノ",
         "more_symbols": [
           {
             "id": 1,
             "name": "nyo",
+            "hint": ["nyo"],
             "symbol": "ニョ"
           }
         ]
@@ -577,31 +668,37 @@
       {
         "id": 6,
         "name": "ho",
+        "hint": ["ho"],
         "symbol": "ホ",
         "more_symbols": [
           {
             "id": 1,
             "name": "hyo",
+            "hint": ["hyo"],
             "symbol": "ヒョ"
           },
           {
             "id": 2,
             "name": "bo",
+            "hint": ["bo"],
             "symbol": "ボ"
           },
           {
             "id": 3,
             "name": "byo",
+            "hint": ["byo"],
             "symbol": "ビョ"
           },
           {
             "id": 4,
             "name": "po",
+            "hint": ["po"],
             "symbol": "ポ"
           },
           {
             "id": 5,
             "name": "pyo",
+            "hint": ["pyo"],
             "symbol": "ピョ"
           }
         ]
@@ -609,11 +706,13 @@
       {
         "id": 7,
         "name": "mo",
+        "hint": ["mo"],
         "symbol": "モ",
         "more_symbols": [
           {
             "id": 1,
             "name": "myo",
+            "hint": ["myo"],
             "symbol": "ミョ"
           }
         ]
@@ -621,17 +720,20 @@
       {
         "id": 8,
         "name": "yo",
+        "hint": ["yo"],
         "symbol": "ヨ",
         "more_symbols": []
       },
       {
         "id": 9,
         "name": "ro",
+        "hint": ["ro"],
         "symbol": "ロ",
         "more_symbols": [
           {
             "id": 1,
             "name": "ryo",
+            "hint": ["ryo"],
             "symbol": "リョ"
           }
         ]
@@ -639,6 +741,7 @@
       {
         "id": 10,
         "name": "wo",
+        "hint": ["wo"],
         "symbol": "ヲ",
         "more_symbols": []
       }

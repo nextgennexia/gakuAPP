@@ -26,7 +26,7 @@ export default React.createClass({
   },
   render: function() {
     return (
-      <div className={`${Object.keys(this.state.currentSymbol).length ? 'of-h' : ''} select-symbol`}>
+      <div className={`${Object.keys(this.state.initialSymbol).length ? 'of-h' : ''} select-symbol`}>
         <ul className='symbol-table'>
           {
             this.state.syllabary.map(function(column) {

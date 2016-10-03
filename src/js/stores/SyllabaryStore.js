@@ -10,22 +10,19 @@ export default Reflux.createStore({
   getInitialState: function() {
     return {
       symbolsList: [],
-      initialSymbol: {},
-      currentSymbol: {}
+      initialSymbol: {}
     };
   },
   onOpenSymbolInfo: function(symbol) {
     this.setState({
       symbolsList: symbol.more_symbols,
-      initialSymbol: symbol,
-      currentSymbol: symbol
+      initialSymbol: symbol
     });
   },
   onCloseSymbolInfo: function() {
     this.setState({
       symbolsList: [],
-      initialSymbol: {},
-      currentSymbol: {}
+      initialSymbol: {}
     });
   }
 });

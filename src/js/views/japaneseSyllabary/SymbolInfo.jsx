@@ -17,6 +17,20 @@ import '../../../css/views/japaneseSyllabary/SymbolInfo.scss';
 
 export default React.createClass({
   mixins: [StateMixin.connect(SyllabaryStore), StateMixin.connect(VerifyStore), ChooseDictionary],
+  getInitialState: function() {
+    return {
+      currentSymbol: {}
+    };
+  },
+  componentWillReceiveProps : function() {
+    this.setState({
+      currentSymbol: this.state.initialSymbol,
+      textField: '',
+      verified: {
+        isRight: ''
+      }
+    });
+  },
   closeSymbolInfo: function() {
     PopupActions.closeSymbolInfo();
   },
@@ -29,22 +43,28 @@ export default React.createClass({
     VerifyActions.verifyResult(userAnswer, rightAnswer, 'syllabary', this.props.syllabary);
   },
   render: function() {
-    let _this = this;
+    let
+      _this = this,
+      _initialSymbol = this.state.initialSymbol,
+      _symbolList = this.state.symbolsList,
+      _currentSymbol = this.state.currentSymbol,
+      _textField = this.state.textField,
+      _verified = this.state.verified;
 
     return (
-      <section className={`${Object.keys(this.state.currentSymbol).length ? '' : 'dn'} symbol-info`}>
+      <section className={`${Object.keys(_initialSymbol).length ? '' : 'dn'} symbol-info`}>
         <nav className='related-symbols'>
           {
-            this.state.symbolsList.length
+            _symbolList.length
               ? <div>
                   <div className='description'>Дополнительные символы:</div>
                   <div className='buttons'>
                     <RaisedButton
-                      label={this.state.initialSymbol.symbol}
-                      onClick={this.selectRelatedSymbol.bind(null, this.state.initialSymbol)}
+                      label={_initialSymbol.symbol}
+                      onClick={this.selectRelatedSymbol.bind(null, _initialSymbol)}
                     />
                     {
-                      this.state.symbolsList.map(function(symbol) {
+                      _symbolList.map(function(symbol) {
                         return (
                           <RaisedButton
                             key={symbol.id}
@@ -63,30 +83,32 @@ export default React.createClass({
         <div className='view'>
           <figure>
             <img src='' />
-            <span>{this.state.currentSymbol.symbol}</span>
+            <span>{_currentSymbol.symbol}</span>
           </figure>
           <div className='ta-l'>
             <span>Чтение: </span>
-            <span>{this.state.currentSymbol.name}</span>
+            <span>{_currentSymbol.romaji}</span>
           </div>
           <div className='ta-l'>
             <span>Ромадзи: </span>
-            <span>{this.state.currentSymbol.name}</span>
+            <span>{_currentSymbol.romaji}</span>
           </div>
           <div>
             <TextField
-              id={`text-field-${this.state.currentSymbol.name}`}
+              id={`text-field-${_currentSymbol.romaji}`}
               className='text-field'
-              floatingLabelText={`Введите「${this.state.currentSymbol.name}」`}
-              errorText={this.state.verified.message}
-              value={this.state.textField}
+              floatingLabelText={`Введите ${_currentSymbol.hint && _currentSymbol.hint.map(function(hint) {
+                return `「${hint}」`
+              })}`}
+              errorText={_verified.message}
+              value={_textField}
               onChange={this.convertToKana}
               onKeyDown={this.changeDictionary}
             />
           </div>
           <div>
             {
-              this.state.verified.isRight
+              _verified.isRight
                 ? <RaisedButton
                     label='Закрыть'
                     className='button-close'
@@ -96,7 +118,7 @@ export default React.createClass({
                 : <RaisedButton
                     label='Проверить'
                     primary={true}
-                    onClick={this.checkAnswer.bind(null, this.state.textField, this.state.currentSymbol.symbol)}
+                    onClick={this.checkAnswer.bind(null, _textField, _currentSymbol.symbol)}
                   />
             }
           </div>

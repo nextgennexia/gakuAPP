@@ -9,4 +9,8 @@
   .menu-item { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: auto; height: auto; }
   .sub-item { margin: 5px 0; font-size: 24px; }
   .icon { position: absolute !important; top: 50%; right: 75%; transform: translateY(-50%); font-size: 36px !important; }
+
+  @media (max-width: 600px) {
+    .icon { display: none !important; }
+  }
 }
