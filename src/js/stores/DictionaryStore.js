@@ -11,14 +11,23 @@ export default Reflux.createStore({
   mixins: [StateMixin.store],
   listenables: Actions,
   getInitialState: function() {
-    return {dictionary: HiraganaDictionary}
+    return {
+      dictionary: HiraganaDictionary,
+      label: 'あ',
+    }
   },
   onChangeDictionary: function() {
     if (this.state.dictionary == HiraganaDictionary) {
-      this.setState({dictionary: KatakanaDictionary});
+      this.setState({
+        dictionary: KatakanaDictionary,
+        label: 'ア'
+      });
     } else {
-      this.setState({dictionary: HiraganaDictionary});
+      this.setState({
+        dictionary: HiraganaDictionary,
+        label: 'あ'
+      });
     }
-    this.trigger(this.state.dictionary);
+    this.trigger(this.state.dictionary, this.state.label);
   }
 });

@@ -1,0 +1,18 @@
+.menu {
+  width: 100%; height: 100%; margin: 0; padding: 0; list-style-type: none; text-align: center; user-select: none;
+  rt { font-size: 16px; }
+  .menu-item:hover { background-color: #e8e8e8; box-shadow: rgba(0, 0, 0, .117647) 0 1px 6px, rgba(0, 0, 0, .117647) 0 1px 4px; cursor: pointer; }
+  &.plate {
+    .menu-item { position: relative; width: 50%; height: 50%; float: left; }
+    .content-container { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: auto; height: auto; }
+    .item-element { margin: 5px 0; font-size: 24px; }
+    .icon { position: absolute !important; top: 50%; right: 75%; transform: translateY(-50%); font-size: 36px !important; }
+  }
+  &.rows {
+    .menu-item { padding: 30px; box-sizing: border-box; font-size: 23px; }
+  }
+
+  @media (max-width: 600px) {
+    .icon { display: none !important; }
+  }
+}

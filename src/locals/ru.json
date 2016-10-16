@@ -1,7 +1,6 @@
 {
   "main_menu": [
     {
-      "id": 1,
       "module": "japanese-syllabary",
       "furigana": "ごじゅうおん",
       "kanji": "五十音",
@@ -9,7 +8,6 @@
       "icon": "あ"
     },
     {
-      "id": 2,
       "module": "new-words",
       "furigana": "あたらしいことば",
       "kanji": "新しい言葉",
@@ -17,7 +15,6 @@
       "icon": "spellcheck"
     },
     {
-      "id": 3,
       "module": "japanese-characters",
       "furigana": "かんじ",
       "kanji": "漢字",
@@ -25,26 +22,47 @@
       "icon": "字"
     },
     {
-      "id": 4,
-      "module": "tasks",
-      "furigana": "もんだい",
-      "kanji": "問題",
-      "local_lang": "Задачи",
+      "module": "practice",
+      "furigana": "れんしゅう",
+      "kanji": "練習",
+      "local_lang": "Практика",
       "icon": "subject"
     }
   ],
   "japanese_syllabary": [
     {
-      "id": 1,
       "module": "hiragana",
-      "kana": "ひらがな",
+      "furigana": "ひらがな",
       "local_lang": "Хирагана"
     },
     {
-      "id": 2,
       "module": "katakana",
-      "kana": "カタカナ",
+      "furigana": "カタカナ",
       "local_lang": "Катакана"
+    }
+  ],
+  "practice": [
+    {
+      "module": "practice/hiragana/gojuon",
+      "local_lang": "Практика по хирагане: основные символы 五十音",
+      "enum": "１"
+    },
+    {
+      "module": "practice/hiragana/additional-symbols",
+      "local_lang": "Практика по хирагане: дополнительные символы",
+      "enum": "２"
+    },
+    {
+      "module": "practice/hiragana/yoon",
+      "local_lang": "Практика по хирагане: 拗音",
+      "enum": "３"
+    },
+    {
+      "module": "practice/katakana",
+      "furigana": "カタカナのれんしゅう",
+      "kanji": "カタカナの練習で",
+      "local_lang": "Практика по катакане",
+      "enum": "４"
     }
   ]
 }

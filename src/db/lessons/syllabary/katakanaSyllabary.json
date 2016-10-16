@@ -1,750 +1,704 @@
-[
-  {
-    "id": 1,
-    "column": [
-      {
-        "id": 1,
-        "name": "a",
-        "hint": ["a"],
-        "symbol": "ア",
-        "more_symbols": []
-      },
-      {
-        "id": 2,
-        "name": "ka",
-        "hint": ["ka"],
-        "symbol": "カ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "ga",
-            "hint": ["ga"],
-            "symbol": "ガ"
-          },
-          {
-            "id": 2,
-            "name": "kya",
-            "hint": ["kya"],
-            "symbol": "キャ"
-          },
-          {
-            "id": 3,
-            "name": "gya",
-            "hint": ["gya"],
-            "symbol": "ギャ"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "sa",
-        "hint": ["sa"],
-        "symbol": "サ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "za",
-            "hint": ["za"],
-            "symbol": "ザ"
-          },
-          {
-            "id": 2,
-            "name": "sha",
-            "hint": ["sha", "sya"],
-            "symbol": "シャ"
-          },
-          {
-            "id": 3,
-            "name": "jya",
-            "hint": ["jya", "ja"],
-            "symbol": "ジャ"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "ta",
-        "hint": ["ta"],
-        "symbol": "タ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "da",
-            "hint": ["da"],
-            "symbol": "ダ"
-          },
-          {
-            "id": 2,
-            "name": "cha",
-            "hint": ["cha", "tya"],
-            "symbol": "チャ"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "name": "na",
-        "hint": ["na"],
-        "symbol": "ナ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "nya",
-            "hint": ["nya"],
-            "symbol": "ニャ"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "name": "ha",
-        "hint": ["ha"],
-        "symbol": "ハ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "hya",
-            "hint": ["hya"],
-            "symbol": "ヒャ"
-          },
-          {
-            "id": 2,
-            "name": "ba",
-            "hint": ["ba"],
-            "symbol": "バ"
-          },
-          {
-            "id": 3,
-            "name": "bya",
-            "hint": ["bya"],
-            "symbol": "ビャ"
-          },
-          {
-            "id": 4,
-            "name": "pa",
-            "hint": ["pa"],
-            "symbol": "パ"
-          },
-          {
-            "id": 5,
-            "name": "pya",
-            "hint": ["pya"],
-            "symbol": "ピャ"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "name": "ma",
-        "hint": ["ma"],
-        "symbol": "マ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "mya",
-            "hint": ["mya"],
-            "symbol": "ミャ"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "name": "ya",
-        "hint": ["ya"],
-        "symbol": "ヤ",
-        "more_symbols": []
-      },
-      {
-        "id": 9,
-        "name": "ra",
-        "hint": ["ra"],
-        "symbol": "ラ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "rya",
-            "hint": ["rya"],
-            "symbol": "リャ"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "name": "wa",
-        "hint": ["wa"],
-        "symbol": "ワ",
-        "more_symbols": []
-      },
-      {
-        "id": 11,
-        "name": "n",
-        "hint": ["nn", "n␣"],
-        "symbol": "ン",
-        "more_symbols": []
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "column": [
-      {
-        "id": 1,
-        "name": "i",
-        "hint": ["i"],
-        "symbol": "イ",
-        "more_symbols": []
-      },
-      {
-        "id": 2,
-        "name": "ki",
-        "hint": ["ki"],
-        "symbol": "キ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "gi",
-            "hint": ["gi"],
-            "symbol": "ギ"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "shi",
-        "hint": ["shi", "si"],
-        "symbol": "シ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "ji",
-            "hint": ["ji", "zi"],
-            "symbol": "ジ"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "chi",
-        "hint": ["chi", "ti"],
-        "symbol": "チ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "ji",
-            "hint": ["dji", "di"],
-            "symbol": "ヂ"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "name": "ni",
-        "hint": ["ni"],
-        "symbol": "二",
-        "more_symbols": []
-      },
-      {
-        "id": 6,
-        "name": "hi",
-        "hint": ["hi"],
-        "symbol": "ヒ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "bi",
-            "hint": ["bi"],
-            "symbol": "ビ"
-          },
-          {
-            "id": 2,
-            "name": "pi",
-            "hint": ["pi"],
-            "symbol": "ピ"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "name": "mi",
-        "hint": ["mi"],
-        "symbol": "ミ",
-        "more_symbols": []
-      },
-      {
-        "id": 8,
-        "name": "",
-        "symbol": "",
-        "more_symbols": []
-      },
-      {
-        "id": 9,
-        "name": "ri",
-        "hint": ["ri"],
-        "symbol": "リ",
-        "more_symbols": []
-      },
-      {
-        "id": 10,
-        "name": "",
-        "symbol": "",
-        "more_symbols": []
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "column": [
-      {
-        "id": 1,
-        "name": "u",
-        "hint": ["u"],
-        "symbol": "ウ",
-        "more_symbols": []
-      },
-      {
-        "id": 2,
-        "name": "ku",
-        "hint": ["ku"],
-        "symbol": "ク",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "gu",
-            "hint": ["gu"],
-            "symbol": "グ"
-          },
-          {
-            "id": 2,
-            "name": "kyu",
-            "hint": ["kyu"],
-            "symbol": "キュ"
-          },
-          {
-            "id": 3,
-            "name": "gyu",
-            "hint": ["gyu"],
-            "symbol": "ギュ"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "su",
-        "hint": ["su"],
-        "symbol": "ス",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "zu",
-            "hint": ["zu"],
-            "symbol": "ズ"
-          },
-          {
-            "id": 2,
-            "name": "shu",
-            "hint": ["shu", "syu"],
-            "symbol": "シュ"
-          },
-          {
-            "id": 3,
-            "name": "jyu",
-            "hint": ["ju", "jyu"],
-            "symbol": "ジュ"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "tsu",
-        "hint": ["tu", "tsu"],
-        "symbol": "ツ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "zu",
-            "hint": ["du", "dju"],
-            "symbol": "ヅ"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "name": "nu",
-        "hint": ["nu"],
-        "symbol": "ヌ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "nyu",
-            "hint": ["nyu"],
-            "symbol": "ニュ"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "name": "fu",
-        "hint": ["fu", "hu"],
-        "symbol": "フ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "hyu",
-            "hint": ["hyu"],
-            "symbol": "ヒュ"
-          },
-          {
-            "id": 2,
-            "name": "bu",
-            "hint": ["bu"],
-            "symbol": "ブ"
-          },
-          {
-            "id": 3,
-            "name": "byu",
-            "hint": ["byu"],
-            "symbol": "ビュ"
-          },
-          {
-            "id": 4,
-            "name": "pu",
-            "hint": ["pu"],
-            "symbol": "プ"
-          },
-          {
-            "id": 5,
-            "name": "pyu",
-            "hint": ["pyu"],
-            "symbol": "ピュ"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "name": "mu",
-        "hint": ["mu"],
-        "symbol": "ム",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "myu",
-            "hint": ["myu"],
-            "symbol": "ミュ"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "name": "yu",
-        "hint": ["yu"],
-        "symbol": "ユ",
-        "more_symbols": []
-      },
-      {
-        "id": 9,
-        "name": "ru",
-        "hint": ["ru"],
-        "symbol": "ル",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "ryu",
-            "hint": ["ryu"],
-            "symbol": "リュ"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "name": "",
-        "symbol": "",
-        "more_symbols": []
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "column": [
-      {
-        "id": 1,
-        "name": "e",
-        "hint": ["e"],
-        "symbol": "エ",
-        "more_symbols": []
-      },
-      {
-        "id": 2,
-        "name": "ke",
-        "hint": ["ke"],
-        "symbol": "ケ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "ge",
-            "hint": ["ge"],
-            "symbol": "ゲ"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "se",
-        "hint": ["se"],
-        "symbol": "セ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "ze",
-            "hint": ["ze"],
-            "symbol": "ゼ"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "te",
-        "hint": ["te"],
-        "symbol": "テ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "de",
-            "hint": ["de"],
-            "symbol": "デ"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "name": "ne",
-        "hint": ["ne"],
-        "symbol": "ネ",
-        "more_symbols": []
-      },
-      {
-        "id": 6,
-        "name": "he",
-        "hint": ["he"],
-        "symbol": "ヘ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "be",
-            "hint": ["be"],
-            "symbol": "ベ"
-          },
-          {
-            "id": 2,
-            "name": "pe",
-            "hint": ["pe"],
-            "symbol": "ペ"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "name": "me",
-        "hint": ["me"],
-        "symbol": "メ",
-        "more_symbols": []
-      },
-      {
-        "id": 8,
-        "name": "",
-        "symbol": "",
-        "more_symbols": []
-      },
-      {
-        "id": 9,
-        "name": "re",
-        "hint": ["re"],
-        "symbol": "レ",
-        "more_symbols": []
-      },
-      {
-        "id": 10,
-        "name": "",
-        "symbol": "",
-        "more_symbols": []
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "column": [
-      {
-        "id": 1,
-        "name": "o",
-        "hint": ["o"],
-        "symbol": "オ",
-        "more_symbols": []
-      },
-      {
-        "id": 2,
-        "name": "ko",
-        "hint": ["ko"],
-        "symbol": "コ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "go",
-            "hint": ["go"],
-            "symbol": "ゴ"
-          },
-          {
-            "id": 2,
-            "name": "kyo",
-            "hint": ["kyo"],
-            "symbol": "キョ"
-          },
-          {
-            "id": 3,
-            "name": "gyo",
-            "hint": ["gyo"],
-            "symbol": "ギョ"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "so",
-        "hint": ["so"],
-        "symbol": "ソ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "zo",
-            "hint": ["zo"],
-            "symbol": "ゾ"
-          },
-          {
-            "id": 2,
-            "name": "shyo",
-            "hint": ["shyo", "sho", "syo"],
-            "symbol": "ショ"
-          },
-          {
-            "id": 3,
-            "name": "jyo",
-            "hint": ["jyo", "jo"],
-            "symbol": "ジョ"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "to",
-        "hint": ["to"],
-        "symbol": "ト",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "do",
-            "hint": ["do"],
-            "symbol": "ド"
-          },
-          {
-            "id": 2,
-            "name": "chyo",
-            "hint": ["chyo", "tyo", "cho"],
-            "symbol": "チョ"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "name": "no",
-        "hint": ["no"],
-        "symbol": "ノ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "nyo",
-            "hint": ["nyo"],
-            "symbol": "ニョ"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "name": "ho",
-        "hint": ["ho"],
-        "symbol": "ホ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "hyo",
-            "hint": ["hyo"],
-            "symbol": "ヒョ"
-          },
-          {
-            "id": 2,
-            "name": "bo",
-            "hint": ["bo"],
-            "symbol": "ボ"
-          },
-          {
-            "id": 3,
-            "name": "byo",
-            "hint": ["byo"],
-            "symbol": "ビョ"
-          },
-          {
-            "id": 4,
-            "name": "po",
-            "hint": ["po"],
-            "symbol": "ポ"
-          },
-          {
-            "id": 5,
-            "name": "pyo",
-            "hint": ["pyo"],
-            "symbol": "ピョ"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "name": "mo",
-        "hint": ["mo"],
-        "symbol": "モ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "myo",
-            "hint": ["myo"],
-            "symbol": "ミョ"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "name": "yo",
-        "hint": ["yo"],
-        "symbol": "ヨ",
-        "more_symbols": []
-      },
-      {
-        "id": 9,
-        "name": "ro",
-        "hint": ["ro"],
-        "symbol": "ロ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "name": "ryo",
-            "hint": ["ryo"],
-            "symbol": "リョ"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "name": "wo",
-        "hint": ["wo"],
-        "symbol": "ヲ",
-        "more_symbols": []
-      }
-    ]
-  }
-]
+{
+  "main_syllabary": [
+    {
+      "column": [
+        {
+          "romaji": "a",
+          "symbol": "ア",
+          "image": "katakana/a.png",
+          "audio": "syllabary/a.mp3"
+        },
+        {
+          "romaji": "ka",
+          "symbol": "カ",
+          "image": "katakana/ka.png",
+          "audio": "syllabary/ka.mp3"
+        },
+        {
+          "romaji": "sa",
+          "symbol": "サ",
+          "image": "katakana/sa.png",
+          "audio": "syllabary/sa.mp3"
+        },
+        {
+          "romaji": "ta",
+          "symbol": "タ",
+          "image": "katakana/ta.png",
+          "audio": "syllabary/ta.mp3"
+        },
+        {
+          "romaji": "na",
+          "symbol": "ナ",
+          "image": "katakana/na.png",
+          "audio": "syllabary/na.mp3"
+        },
+        {
+          "romaji": "ha",
+          "symbol": "ハ",
+          "image": "katakana/ha.png",
+          "audio": "syllabary/ha.mp3"
+        },
+        {
+          "romaji": "ma",
+          "symbol": "マ",
+          "image": "katakana/ma.png",
+          "audio": "syllabary/ma.mp3"
+        },
+        {
+          "romaji": "ya",
+          "symbol": "ヤ",
+          "image": "katakana/ya.png",
+          "audio": "syllabary/ya.mp3"
+        },
+        {
+          "romaji": "ra",
+          "symbol": "ラ",
+          "image": "katakana/ra.png",
+          "audio": "syllabary/ra.mp3"
+        },
+        {
+          "romaji": "wa",
+          "symbol": "ワ",
+          "image": "katakana/wa.png",
+          "audio": "syllabary/wa.mp3"
+        },
+        {
+          "romaji": "n",
+          "symbol": "ン",
+          "image": "katakana/n.png",
+          "audio": "syllabary/n.mp3"
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "i",
+          "symbol": "イ",
+          "image": "katakana/i.png",
+          "audio": "syllabary/i.mp3"
+        },
+        {
+          "romaji": "ki",
+          "symbol": "キ",
+          "image": "katakana/ki.png",
+          "audio": "syllabary/ki.mp3"
+        },
+        {
+          "romaji": "shi",
+          "symbol": "シ",
+          "image": "katakana/si.png",
+          "audio": "syllabary/si.mp3"
+        },
+        {
+          "romaji": "chi",
+          "symbol": "チ",
+          "image": "katakana/ti.png",
+          "audio": "syllabary/ti.mp3"
+        },
+        {
+          "romaji": "ni",
+          "symbol": "二",
+          "image": "katakana/ni.png",
+          "audio": "syllabary/ni.mp3"
+        },
+        {
+          "romaji": "hi",
+          "symbol": "ヒ",
+          "image": "katakana/hi.png",
+          "audio": "syllabary/hi.mp3"
+        },
+        {
+          "romaji": "mi",
+          "symbol": "ミ",
+          "image": "katakana/mi.png",
+          "audio": "syllabary/mi.mp3"
+        },
+        {
+          "romaji": "",
+          "symbol": ""
+        },
+        {
+          "romaji": "ri",
+          "symbol": "リ",
+          "image": "katakana/ri.png",
+          "audio": "syllabary/ri.mp3"
+        },
+        {
+          "romaji": "",
+          "symbol": ""
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "u",
+          "symbol": "ウ",
+          "image": "katakana/u.png",
+          "audio": "syllabary/u.mp3"
+        },
+        {
+          "romaji": "ku",
+          "symbol": "ク",
+          "image": "katakana/ku.png",
+          "audio": "syllabary/ku.mp3"
+        },
+        {
+          "romaji": "su",
+          "symbol": "ス",
+          "image": "katakana/su.png",
+          "audio": "syllabary/su.mp3"
+        },
+        {
+          "romaji": "tsu",
+          "symbol": "ツ",
+          "image": "katakana/tu.png",
+          "audio": "syllabary/tu.mp3"
+        },
+        {
+          "romaji": "nu",
+          "symbol": "ヌ",
+          "image": "katakana/nu.png",
+          "audio": "syllabary/nu.mp3"
+        },
+        {
+          "romaji": "fu",
+          "symbol": "フ",
+          "image": "katakana/fu.png",
+          "audio": "syllabary/hu.mp3"
+        },
+        {
+          "romaji": "mu",
+          "symbol": "ム",
+          "image": "katakana/mu.png",
+          "audio": "syllabary/mu.mp3"
+        },
+        {
+          "romaji": "yu",
+          "symbol": "ユ",
+          "image": "katakana/yu.png",
+          "audio": "syllabary/yu.mp3"
+        },
+        {
+          "romaji": "ru",
+          "symbol": "ル",
+          "image": "katakana/ru.png",
+          "audio": "syllabary/ru.mp3"
+        },
+        {
+          "romaji": "",
+          "symbol": ""
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "e",
+          "symbol": "エ",
+          "image": "katakana/e.png",
+          "audio": "syllabary/e.mp3"
+        },
+        {
+          "romaji": "ke",
+          "symbol": "ケ",
+          "image": "katakana/ke.png",
+          "audio": "syllabary/ke.mp3"
+        },
+        {
+          "romaji": "se",
+          "symbol": "セ",
+          "image": "katakana/se.png",
+          "audio": "syllabary/se.mp3"
+        },
+        {
+          "romaji": "te",
+          "symbol": "テ",
+          "image": "katakana/te.png",
+          "audio": "syllabary/te.mp3"
+        },
+        {
+          "romaji": "ne",
+          "symbol": "ネ",
+          "image": "katakana/ne.png",
+          "audio": "syllabary/ne.mp3"
+        },
+        {
+          "romaji": "he",
+          "symbol": "ヘ",
+          "image": "katakana/he.png",
+          "audio": "syllabary/he.mp3"
+        },
+        {
+          "romaji": "me",
+          "symbol": "メ",
+          "image": "katakana/me.png",
+          "audio": "syllabary/me.mp3"
+        },
+        {
+          "romaji": "",
+          "symbol": ""
+        },
+        {
+          "romaji": "re",
+          "symbol": "レ",
+          "image": "katakana/re.png",
+          "audio": "syllabary/re.mp3"
+        },
+        {
+          "romaji": "",
+          "symbol": ""
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "o",
+          "symbol": "オ",
+          "image": "katakana/o.png",
+          "audio": "syllabary/o.mp3"
+        },
+        {
+          "romaji": "ko",
+          "symbol": "コ",
+          "image": "katakana/ko.png",
+          "audio": "syllabary/ko.mp3"
+        },
+        {
+          "romaji": "so",
+          "symbol": "ソ",
+          "image": "katakana/so.png",
+          "audio": "syllabary/so.mp3"
+        },
+        {
+          "romaji": "to",
+          "symbol": "ト",
+          "image": "katakana/to.png",
+          "audio": "syllabary/to.mp3"
+        },
+        {
+          "romaji": "no",
+          "symbol": "ノ",
+          "image": "katakana/no.png",
+          "audio": "syllabary/no.mp3"
+        },
+        {
+          "romaji": "ho",
+          "symbol": "ホ",
+          "image": "katakana/ho.png",
+          "audio": "syllabary/ho.mp3"
+        },
+        {
+          "romaji": "mo",
+          "symbol": "モ",
+          "image": "katakana/mo.png",
+          "audio": "syllabary/mo.mp3"
+        },
+        {
+          "romaji": "yo",
+          "symbol": "ヨ",
+          "image": "katakana/yo.png",
+          "audio": "syllabary/yo.mp3"
+        },
+        {
+          "romaji": "ro",
+          "symbol": "ロ",
+          "image": "katakana/ro.png",
+          "audio": "syllabary/ro.mp3"
+        },
+        {
+          "romaji": "wo",
+          "symbol": "ヲ",
+          "image": "katakana/wo.png",
+          "audio": "syllabary/wo.mp3"
+        }
+      ]
+    }
+  ],
+  "additional_symbols": [
+    {
+      "column": [
+        {
+          "romaji": "ga",
+          "symbol": "ガ",
+          "image": "katakana/ga.png",
+          "audio": "syllabary/ga.mp3"
+        },
+        {
+          "romaji": "za",
+          "symbol": "ザ",
+          "image": "katakana/za.png",
+          "audio": "syllabary/za.mp3"
+        },
+        {
+          "romaji": "da",
+          "symbol": "ダ",
+          "image": "katakana/da.png",
+          "audio": "syllabary/da.mp3"
+        },
+        {
+          "romaji": "ba",
+          "symbol": "バ",
+          "image": "katakana/ba.png",
+          "audio": "syllabary/ba.mp3"
+        },
+        {
+          "romaji": "pa",
+          "symbol": "パ",
+          "image": "katakana/pa.png",
+          "audio": "syllabary/pa.mp3"
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "gi",
+          "symbol": "ギ",
+          "image": "katakana/gi.png",
+          "audio": "syllabary/gi.mp3"
+        },
+        {
+          "romaji": "ji",
+          "symbol": "ジ",
+          "image": "katakana/ji.png",
+          "audio": "syllabary/zi.mp3"
+        },
+        {
+          "romaji": "ji",
+          "symbol": "ヂ",
+          "image": "katakana/di.png",
+          "audio": "syllabary/di.mp3"
+        },
+        {
+          "romaji": "bi",
+          "symbol": "ビ",
+          "image": "katakana/bi.png",
+          "audio": "syllabary/bi.mp3"
+        },
+        {
+          "romaji": "pi",
+          "symbol": "ピ",
+          "image": "katakana/pi.png",
+          "audio": "syllabary/pi.mp3"
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "gu",
+          "symbol": "グ",
+          "image": "katakana/gu.png",
+          "audio": "syllabary/gu.mp3"
+        },
+        {
+          "romaji": "zu",
+          "symbol": "ズ",
+          "image": "katakana/zu.png",
+          "audio": "syllabary/zu.mp3"
+        },
+        {
+          "romaji": "zu",
+          "symbol": "ヅ",
+          "image": "katakana/du.png",
+          "audio": "syllabary/du.mp3"
+        },
+        {
+          "romaji": "bu",
+          "symbol": "ブ",
+          "image": "katakana/bu.png",
+          "audio": "syllabary/bu.mp3"
+        },
+        {
+          "romaji": "pu",
+          "symbol": "プ",
+          "image": "katakana/pu.png",
+          "audio": "syllabary/pu.mp3"
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "ge",
+          "symbol": "ゲ",
+          "image": "katakana/ge.png",
+          "audio": "syllabary/ge.mp3"
+        },
+        {
+          "romaji": "ze",
+          "symbol": "ゼ",
+          "image": "katakana/ze.png",
+          "audio": "syllabary/ze.mp3"
+        },
+        {
+          "romaji": "de",
+          "symbol": "デ",
+          "image": "katakana/de.png",
+          "audio": "syllabary/de.mp3"
+        },
+        {
+          "romaji": "be",
+          "symbol": "ベ",
+          "image": "katakana/be.png",
+          "audio": "syllabary/be.mp3"
+        },
+        {
+          "romaji": "pe",
+          "symbol": "ペ",
+          "image": "katakana/pe.png",
+          "audio": "syllabary/pe.mp3"
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "go",
+          "symbol": "ゴ",
+          "image": "katakana/go.png",
+          "audio": "syllabary/go.mp3"
+        },
+        {
+          "romaji": "zo",
+          "symbol": "ゾ",
+          "image": "katakana/zo.png",
+          "audio": "syllabary/zo.mp3"
+        },
+        {
+          "romaji": "do",
+          "symbol": "ド",
+          "image": "katakana/do.png",
+          "audio": "syllabary/do.mp3"
+        },
+        {
+          "romaji": "bo",
+          "symbol": "ボ",
+          "image": "katakana/bo.png",
+          "audio": "syllabary/bo.mp3"
+        },
+        {
+          "romaji": "po",
+          "symbol": "ポ",
+          "image": "katakana/po.png",
+          "audio": "syllabary/po.mp3"
+        }
+      ]
+    }
+  ],
+  "yoon": [
+    {
+      "column": [
+        {
+          "romaji": "kya",
+          "symbol": "キャ",
+          "image": "katakana/kya.png",
+          "audio": "syllabary/kya.mp3"
+        },
+        {
+          "romaji": "gya",
+          "symbol": "ギャ",
+          "image": "katakana/gya.png",
+          "audio": "syllabary/gya.mp3"
+        },
+        {
+          "romaji": "sha",
+          "symbol": "シャ",
+          "image": "katakana/sya.png",
+          "audio": "syllabary/sya.mp3"
+        },
+        {
+          "romaji": "ja",
+          "symbol": "ジャ",
+          "image": "katakana/jya.png",
+          "audio": "syllabary/jya.mp3"
+        },
+        {
+          "romaji": "cha",
+          "symbol": "チャ",
+          "image": "katakana/tya.png",
+          "audio": "syllabary/tya.mp3"
+        },
+        {
+          "romaji": "nya",
+          "symbol": "ニャ",
+          "image": "katakana/nya.png",
+          "audio": "syllabary/nya.mp3"
+        },
+        {
+          "romaji": "hya",
+          "symbol": "ヒャ",
+          "image": "katakana/hya.png",
+          "audio": "syllabary/hya.mp3"
+        },
+        {
+          "romaji": "bya",
+          "symbol": "ビャ",
+          "image": "katakana/bya.png",
+          "audio": "syllabary/bya.mp3"
+        },
+        {
+          "romaji": "pya",
+          "symbol": "ピャ",
+          "image": "katakana/pya.png",
+          "audio": "syllabary/pya.mp3"
+        },
+        {
+          "romaji": "mya",
+          "symbol": "ミャ",
+          "image": "katakana/mya.png",
+          "audio": "syllabary/mya.mp3"
+        },
+        {
+          "romaji": "rya",
+          "symbol": "リャ",
+          "image": "katakana/rya.png",
+          "audio": "syllabary/rya.mp3"
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "kyu",
+          "symbol": "キュ",
+          "image": "katakana/kyu.png",
+          "audio": "syllabary/kyu.mp3"
+        },
+        {
+          "romaji": "gyu",
+          "symbol": "ギュ",
+          "image": "katakana/gyu.png",
+          "audio": "syllabary/gyu.mp3"
+        },
+        {
+          "romaji": "shu",
+          "symbol": "シュ",
+          "image": "katakana/syu.png",
+          "audio": "syllabary/syu.mp3"
+        },
+        {
+          "romaji": "ju",
+          "symbol": "ジュ",
+          "image": "katakana/jyu.png",
+          "audio": "syllabary/jyu.mp3"
+        },
+        {
+          "romaji": "chu",
+          "symbol": "ジュ",
+          "image": "katakana/tyu.png",
+          "audio": "syllabary/tyu.mp3"
+        },
+        {
+          "romaji": "nyu",
+          "symbol": "ニュ",
+          "image": "katakana/nyu.png",
+          "audio": "syllabary/nyu.mp3"
+        },
+        {
+          "romaji": "hyu",
+          "symbol": "ヒュ",
+          "image": "katakana/hyu.png",
+          "audio": "syllabary/hyu.mp3"
+        },
+        {
+          "romaji": "byu",
+          "symbol": "ビュ",
+          "image": "katakana/byu.png",
+          "audio": "syllabary/byu.mp3"
+        },
+        {
+          "romaji": "pyu",
+          "symbol": "ピュ",
+          "image": "katakana/pyu.png",
+          "audio": "syllabary/pyu.mp3"
+        },
+        {
+          "romaji": "myu",
+          "symbol": "ミュ",
+          "image": "katakana/myu.png",
+          "audio": "syllabary/myu.mp3"
+        },
+        {
+          "romaji": "ryu",
+          "symbol": "リュ",
+          "image": "katakana/ryu.png",
+          "audio": "syllabary/ryu.mp3"
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "kyo",
+          "symbol": "キョ",
+          "image": "katakana/kyo.png",
+          "audio": "syllabary/kyo.mp3"
+        },
+        {
+          "romaji": "gyo",
+          "symbol": "ギョ",
+          "image": "katakana/gyo.png",
+          "audio": "syllabary/gyo.mp3"
+        },
+        {
+          "romaji": "sho",
+          "symbol": "ショ",
+          "image": "katakana/syo.png",
+          "audio": "syllabary/syo.mp3"
+        },
+        {
+          "romaji": "jo",
+          "symbol": "ジョ",
+          "image": "katakana/jyo.png",
+          "audio": "syllabary/jyo.mp3"
+        },
+        {
+          "romaji": "cho",
+          "symbol": "チョ",
+          "image": "katakana/tyo.png",
+          "audio": "syllabary/tyo.mp3"
+        },
+        {
+          "romaji": "nyo",
+          "symbol": "ニョ",
+          "image": "katakana/nyo.png",
+          "audio": "syllabary/nyo.mp3"
+        },
+        {
+          "romaji": "hyo",
+          "symbol": "ヒョ",
+          "image": "katakana/hyo.png",
+          "audio": "syllabary/hyo.mp3"
+        },
+        {
+          "romaji": "byo",
+          "symbol": "ビョ",
+          "image": "katakana/byo.png",
+          "audio": "syllabary/byo.mp3"
+        },
+        {
+          "romaji": "pyo",
+          "symbol": "ピョ",
+          "image": "katakana/pyo.png",
+          "audio": "syllabary/pyo.mp3"
+        },
+        {
+          "romaji": "myo",
+          "symbol": "ミョ",
+          "image": "katakana/myo.png",
+          "audio": "syllabary/myo.mp3"
+        },
+        {
+          "romaji": "ryo",
+          "symbol": "リョ",
+          "image": "katakana/ryo.png",
+          "audio": "syllabary/ryo.mp3"
+        }
+      ]
+    }
+  ]
+}

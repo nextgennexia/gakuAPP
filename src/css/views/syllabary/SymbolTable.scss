@@ -1,0 +1,14 @@
+.syllabary {
+  height: calc(100% - 60px); font-size: 24px; overflow: auto;
+  ul { margin: 0; padding: 0; list-style-type: none; text-align: center; }
+  .symbol-table { width: 25%; height: calc(100% - 60px); margin: auto; }
+  .close { position: fixed !important; top: 20px; right: 20px; }
+  .syllabary-name {
+    margin: 10px 0; padding: 10px; text-align: center; background-color: #e8e8e8; box-sizing: border-box; user-select: none; cursor: default;
+    &:hover { background-color: #e0e0e0; box-shadow: rgba(0, 0, 0, 0.117647) 0 1px 6px, rgba(0, 0, 0, 0.117647) 0 1px 4px; }
+  }
+
+  @media (max-width: 1000px) {
+    .symbol-table { width: 100%; }
+  }
+}

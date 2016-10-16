@@ -1,8 +1,6 @@
 import React from 'react';
 import Words from '../../../db/lessons/lesson1/words.json';
 import '../../../css/views/lessons/NewWords.scss';
-import BackButton from '../../components/BackButton.jsx';
-
 import ScrollArea from 'react-scrollbar';
 
 export default React.createClass({
@@ -24,10 +22,10 @@ export default React.createClass({
         <ScrollArea className='wrapper' speed={1} >
           <div className='table'>
             {
-              this.state.dataWords.map(function(el){
+              this.state.dataWords.map(function(el, idx){
                 return (
                   <div
-                    key={el.id}
+                    key={idx}
                     className={el.id == _this.state.selected ? 'row active' : 'row'}
                     onClick={_this.setSelect.bind(null, el.id)}
                     >
@@ -41,7 +39,6 @@ export default React.createClass({
             }
           </div>
         </ScrollArea>
-        <BackButton label='Назад' />
       </div>
     );
   }

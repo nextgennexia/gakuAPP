@@ -1,750 +1,707 @@
-[
-  {
-    "id": 1,
-    "column": [
-      {
-        "id": 1,
-        "romaji": "a",
-        "hint": ["a"],
-        "symbol": "あ",
-        "more_symbols": []
-      },
-      {
-        "id": 2,
-        "romaji": "ka",
-        "hint": ["ka"],
-        "symbol": "か",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "ga",
-            "hint": ["ga"],
-            "symbol": "が"
-          },
-          {
-            "id": 2,
-            "romaji": "kya",
-            "hint": ["kya"],
-            "symbol": "きゃ"
-          },
-          {
-            "id": 3,
-            "romaji": "gya",
-            "hint": ["gya"],
-            "symbol": "ぎゃ"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "romaji": "sa",
-        "hint": ["sa"],
-        "symbol": "さ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "za",
-            "hint": ["za"],
-            "symbol": "ざ"
-          },
-          {
-            "id": 2,
-            "romaji": "sha",
-            "hint": ["sha", "sya"],
-            "symbol": "しゃ"
-          },
-          {
-            "id": 3,
-            "romaji": "jya",
-            "hint": ["jya", "ja"],
-            "symbol": "じゃ"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "romaji": "ta",
-        "hint": ["ta"],
-        "symbol": "た",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "da",
-            "hint": ["da"],
-            "symbol": "だ"
-          },
-          {
-            "id": 2,
-            "romaji": "cha",
-            "hint": ["cha", "tya"],
-            "symbol": "ちゃ"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "romaji": "na",
-        "hint": ["na"],
-        "symbol": "な",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "nya",
-            "hint": ["nya"],
-            "symbol": "にゃ"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "romaji": "ha",
-        "hint": ["ha"],
-        "symbol": "は",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "hya",
-            "hint": ["hya"],
-            "symbol": "ひゃ"
-          },
-          {
-            "id": 2,
-            "romaji": "ba",
-            "hint": ["ba"],
-            "symbol": "ば"
-          },
-          {
-            "id": 3,
-            "romaji": "bya",
-            "hint": ["bya"],
-            "symbol": "びゃ"
-          },
-          {
-            "id": 4,
-            "romaji": "pa",
-            "hint": ["pa"],
-            "symbol": "ぱ"
-          },
-          {
-            "id": 5,
-            "romaji": "pya",
-            "hint": ["pya"],
-            "symbol": "ぴゃ"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "romaji": "ma",
-        "hint": ["ma"],
-        "symbol": "ま",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "mya",
-            "hint": ["mya"],
-            "symbol": "みゃ"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "romaji": "ya",
-        "hint": ["ya"],
-        "symbol": "や",
-        "more_symbols": []
-      },
-      {
-        "id": 9,
-        "romaji": "ra",
-        "hint": ["ra"],
-        "symbol": "ら",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "rya",
-            "hint": ["rya"],
-            "symbol": "りゃ"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "romaji": "wa",
-        "hint": ["wa"],
-        "symbol": "わ",
-        "more_symbols": []
-      },
-      {
-        "id": 11,
-        "romaji": "n",
-        "hint": ["nn", "n␣"],
-        "symbol": "ん",
-        "more_symbols": []
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "column": [
-      {
-        "id": 1,
-        "romaji": "i",
-        "hint": ["i"],
-        "symbol": "い",
-        "more_symbols": []
-      },
-      {
-        "id": 2,
-        "romaji": "ki",
-        "hint": ["ki"],
-        "symbol": "き",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "gi",
-            "hint": ["gi"],
-            "symbol": "ぎ"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "romaji": "shi",
-        "hint": ["shi", "si"],
-        "symbol": "し",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "ji",
-            "hint": ["ji", "zi"],
-            "symbol": "じ"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "romaji": "chi",
-        "symbol": "ち",
-        "hint": ["chi", "ti"],
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "ji",
-            "hint": ["dji", "di"],
-            "symbol": "ぢ"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "romaji": "ni",
-        "hint": ["ni"],
-        "symbol": "に",
-        "more_symbols": []
-      },
-      {
-        "id": 6,
-        "romaji": "hi",
-        "hint": ["hi"],
-        "symbol": "ひ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "bi",
-            "hint": ["bi"],
-            "symbol": "び"
-          },
-          {
-            "id": 2,
-            "romaji": "pi",
-            "hint": ["pi"],
-            "symbol": "ぴ"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "romaji": "mi",
-        "hint": ["mi"],
-        "symbol": "み",
-        "more_symbols": []
-      },
-      {
-        "id": 8,
-        "romaji": "",
-        "symbol": "",
-        "more_symbols": []
-      },
-      {
-        "id": 9,
-        "romaji": "ri",
-        "hint": ["ri"],
-        "symbol": "り",
-        "more_symbols": []
-      },
-      {
-        "id": 10,
-        "romaji": "",
-        "symbol": "",
-        "more_symbols": []
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "column": [
-      {
-        "id": 1,
-        "romaji": "u",
-        "hint": ["u"],
-        "symbol": "う",
-        "more_symbols": []
-      },
-      {
-        "id": 2,
-        "romaji": "ku",
-        "hint": ["ku"],
-        "symbol": "く",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "gu",
-            "hint": ["gu"],
-            "symbol": "ぐ"
-          },
-          {
-            "id": 2,
-            "romaji": "kyu",
-            "hint": ["kyu"],
-            "symbol": "きゅ"
-          },
-          {
-            "id": 3,
-            "romaji": "gyu",
-            "hint": ["gyu"],
-            "symbol": "ぎゅ"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "romaji": "su",
-        "hint": ["su"],
-        "symbol": "す",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "zu",
-            "hint": ["zu"],
-            "symbol": "ず"
-          },
-          {
-            "id": 2,
-            "romaji": "shu",
-            "hint": ["shu", "syu"],
-            "symbol": "しゅ"
-          },
-          {
-            "id": 3,
-            "romaji": "jyu",
-            "hint": ["ju", "jyu"],
-            "symbol": "じゅ"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "romaji": "tsu",
-        "hint": ["tu", "tsu"],
-        "symbol": "つ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "zu",
-            "hint": ["du", "dju"],
-            "symbol": "づ"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "romaji": "nu",
-        "hint": ["nu"],
-        "symbol": "ぬ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "nyu",
-            "hint": ["nyu"],
-            "symbol": "にゅ"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "romaji": "fu",
-        "hint": ["fu", "hu"],
-        "symbol": "ふ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "hyu",
-            "hint": ["hyu"],
-            "symbol": "ひゅ"
-          },
-          {
-            "id": 2,
-            "romaji": "bu",
-            "hint": ["bu"],
-            "symbol": "ぶ"
-          },
-          {
-            "id": 3,
-            "romaji": "byu",
-            "hint": ["byu"],
-            "symbol": "びゅ"
-          },
-          {
-            "id": 4,
-            "romaji": "pu",
-            "hint": ["pu"],
-            "symbol": "ぷ"
-          },
-          {
-            "id": 5,
-            "romaji": "pyu",
-            "hint": ["pyu"],
-            "symbol": "ぴゅ"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "romaji": "mu",
-        "hint": ["mu"],
-        "symbol": "む",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "myu",
-            "hint": ["myu"],
-            "symbol": "みゅ"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "romaji": "yu",
-        "hint": ["yu"],
-        "symbol": "ゆ",
-        "more_symbols": []
-      },
-      {
-        "id": 9,
-        "romaji": "ru",
-        "hint": ["ru"],
-        "symbol": "る",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "ryu",
-            "hint": ["ryu"],
-            "symbol": "りゅ"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "romaji": "",
-        "symbol": "",
-        "more_symbols": []
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "column": [
-      {
-        "id": 1,
-        "romaji": "e",
-        "hint": ["e"],
-        "symbol": "え",
-        "more_symbols": []
-      },
-      {
-        "id": 2,
-        "romaji": "ke",
-        "hint": ["ke"],
-        "symbol": "け",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "ge",
-            "hint": ["ge"],
-            "symbol": "げ"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "romaji": "se",
-        "hint": ["se"],
-        "symbol": "せ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "ze",
-            "hint": ["ze"],
-            "symbol": "ぜ"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "romaji": "te",
-        "hint": ["te"],
-        "symbol": "て",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "de",
-            "hint": ["de"],
-            "symbol": "で"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "romaji": "ne",
-        "hint": ["ne"],
-        "symbol": "ね",
-        "more_symbols": []
-      },
-      {
-        "id": 6,
-        "romaji": "he",
-        "hint": ["he"],
-        "symbol": "へ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "be",
-            "hint": ["be"],
-            "symbol": "べ"
-          },
-          {
-            "id": 2,
-            "romaji": "pe",
-            "hint": ["pe"],
-            "symbol": "ぺ"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "romaji": "me",
-        "hint": ["me"],
-        "symbol": "め",
-        "more_symbols": []
-      },
-      {
-        "id": 8,
-        "romaji": "",
-        "symbol": "",
-        "more_symbols": []
-      },
-      {
-        "id": 9,
-        "romaji": "re",
-        "hint": ["re"],
-        "symbol": "れ",
-        "more_symbols": []
-      },
-      {
-        "id": 10,
-        "romaji": "",
-        "symbol": "",
-        "more_symbols": []
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "column": [
-      {
-        "id": 1,
-        "romaji": "o",
-        "hint": ["o"],
-        "symbol": "お",
-        "more_symbols": []
-      },
-      {
-        "id": 2,
-        "romaji": "ko",
-        "hint": ["ko"],
-        "symbol": "こ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "go",
-            "hint": ["go"],
-            "symbol": "ご"
-          },
-          {
-            "id": 2,
-            "romaji": "kyo",
-            "hint": ["kyo"],
-            "symbol": "きょ"
-          },
-          {
-            "id": 3,
-            "romaji": "gyo",
-            "hint": ["gyo"],
-            "symbol": "ぎょ"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "romaji": "so",
-        "hint": ["so"],
-        "symbol": "そ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "zo",
-            "hint": ["zo"],
-            "symbol": "ぞ"
-          },
-          {
-            "id": 2,
-            "romaji": "shyo",
-            "hint": ["shyo", "sho", "syo"],
-            "symbol": "しょ"
-          },
-          {
-            "id": 3,
-            "romaji": "jyo",
-            "hint": ["jyo", "jo"],
-            "symbol": "じょ"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "romaji": "to",
-        "hint": ["to"],
-        "symbol": "と",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "do",
-            "hint": ["do"],
-            "symbol": "ど"
-          },
-          {
-            "id": 2,
-            "romaji": "chyo",
-            "hint": ["chyo", "tyo", "cho"],
-            "symbol": "ちょ"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "romaji": "no",
-        "hint": ["no"],
-        "symbol": "の",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "nyo",
-            "hint": ["nyo"],
-            "symbol": "にょ"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "romaji": "ho",
-        "hint": ["ho"],
-        "symbol": "ほ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "hyo",
-            "hint": ["hyo"],
-            "symbol": "ひょ"
-          },
-          {
-            "id": 2,
-            "romaji": "bo",
-            "hint": ["bo"],
-            "symbol": "ぼ"
-          },
-          {
-            "id": 3,
-            "romaji": "byo",
-            "hint": ["byo"],
-            "symbol": "びょ"
-          },
-          {
-            "id": 4,
-            "romaji": "po",
-            "hint": ["po"],
-            "symbol": "ぽ"
-          },
-          {
-            "id": 5,
-            "romaji": "pyo",
-            "hint": ["pyo"],
-            "symbol": "ぴょ"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "romaji": "mo",
-        "hint": ["mo"],
-        "symbol": "も",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "myo",
-            "hint": ["myo"],
-            "symbol": "みょ"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "romaji": "yo",
-        "hint": ["yo"],
-        "symbol": "よ",
-        "more_symbols": []
-      },
-      {
-        "id": 9,
-        "romaji": "ro",
-        "hint": ["ro"],
-        "symbol": "ろ",
-        "more_symbols": [
-          {
-            "id": 1,
-            "romaji": "ryo",
-            "hint": ["ryo"],
-            "symbol": "りょ"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "romaji": "wo",
-        "hint": ["wo"],
-        "symbol": "を",
-        "more_symbols": []
-      }
-    ]
-  }
-]
+{
+  "main_syllabary": [
+    {
+      "column": [
+        {
+          "romaji": "a",
+          "symbol": "あ",
+          "image": "hiragana/a.png",
+          "audio": "syllabary/a.mp3"
+        },
+        {
+          "romaji": "ka",
+          "symbol": "か",
+          "image": "hiragana/ka.png",
+          "audio": "syllabary/ka.mp3"
+        },
+        {
+          "romaji": "sa",
+          "symbol": "さ",
+          "image": "hiragana/sa.png",
+          "audio": "syllabary/sa.mp3"
+        },
+        {
+          "romaji": "ta",
+          "symbol": "た",
+          "image": "hiragana/ta.png",
+          "audio": "syllabary/ta.mp3"
+        },
+        {
+          "romaji": "na",
+          "symbol": "な",
+          "image": "hiragana/na.png",
+          "audio": "syllabary/na.mp3"
+        },
+        {
+          "romaji": "ha",
+          "symbol": "は",
+          "image": "hiragana/ha.png",
+          "audio": "syllabary/ha.mp3"
+        },
+        {
+          "romaji": "ma",
+          "symbol": "ま",
+          "image": "hiragana/ma.png",
+          "audio": "syllabary/ma.mp3"
+        },
+        {
+          "romaji": "ya",
+          "symbol": "や",
+          "image": "hiragana/ya.png",
+          "audio": "syllabary/ya.mp3",
+          "more_symbols": []
+        },
+        {
+          "romaji": "ra",
+          "symbol": "ら",
+          "image": "hiragana/ra.png",
+          "audio": "syllabary/ra.mp3"
+        },
+        {
+          "romaji": "wa",
+          "symbol": "わ",
+          "image": "hiragana/wa.png",
+          "audio": "syllabary/wa.mp3"
+        },
+        {
+          "romaji": "n",
+          "symbol": "ん",
+          "image": "hiragana/n.png",
+          "audio": "syllabary/n.mp3"
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "i",
+          "symbol": "い",
+          "image": "hiragana/i.png",
+          "audio": "syllabary/i.mp3"
+        },
+        {
+          "romaji": "ki",
+          "symbol": "き",
+          "image": "hiragana/ki.png",
+          "audio": "syllabary/ki.mp3"
+        },
+        {
+          "romaji": "shi",
+          "symbol": "し",
+          "image": "hiragana/si.png",
+          "audio": "syllabary/si.mp3"
+        },
+        {
+          "romaji": "chi",
+          "symbol": "ち",
+          "image": "hiragana/ti.png",
+          "audio": "syllabary/ti.mp3"
+        },
+        {
+          "romaji": "ni",
+          "symbol": "に",
+          "image": "hiragana/ni.png",
+          "audio": "syllabary/ni.mp3"
+        },
+        {
+          "romaji": "hi",
+          "symbol": "ひ",
+          "image": "hiragana/hi.png",
+          "audio": "syllabary/hi.mp3"
+        },
+        {
+          "romaji": "mi",
+          "symbol": "み",
+          "image": "hiragana/mi.png",
+          "audio": "syllabary/mi.mp3"
+        },
+        {
+          "romaji": "",
+          "symbol": "",
+          "more_symbols": []
+        },
+        {
+          "romaji": "ri",
+          "symbol": "り",
+          "image": "hiragana/ri.png",
+          "audio": "syllabary/ri.mp3"
+        },
+        {
+          "romaji": "",
+          "symbol": ""
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "u",
+          "symbol": "う",
+          "image": "hiragana/u.png",
+          "audio": "syllabary/u.mp3"
+        },
+        {
+          "romaji": "ku",
+          "symbol": "く",
+          "image": "hiragana/ku.png",
+          "audio": "syllabary/ku.mp3"
+        },
+        {
+          "romaji": "su",
+          "symbol": "す",
+          "image": "hiragana/su.png",
+          "audio": "syllabary/su.mp3"
+        },
+        {
+          "romaji": "tsu",
+          "symbol": "つ",
+          "image": "hiragana/tu.png",
+          "audio": "syllabary/tu.mp3"
+        },
+        {
+          "romaji": "nu",
+          "symbol": "ぬ",
+          "image": "hiragana/nu.png",
+          "audio": "syllabary/nu.mp3"
+        },
+        {
+          "romaji": "fu",
+          "symbol": "ふ",
+          "image": "hiragana/fu.png",
+          "audio": "syllabary/hu.mp3"
+        },
+        {
+          "romaji": "mu",
+          "symbol": "む",
+          "image": "hiragana/mu.png",
+          "audio": "syllabary/mu.mp3"
+        },
+        {
+          "romaji": "yu",
+          "symbol": "ゆ",
+          "image": "hiragana/yu.png",
+          "audio": "syllabary/yu.mp3"
+        },
+        {
+          "romaji": "ru",
+          "symbol": "る",
+          "image": "hiragana/ru.png",
+          "audio": "syllabary/ru.mp3"
+        },
+        {
+          "romaji": "",
+          "symbol": ""
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "e",
+          "symbol": "え",
+          "image": "hiragana/e.png",
+          "audio": "syllabary/e.mp3"
+        },
+        {
+          "romaji": "ke",
+          "symbol": "け",
+          "image": "hiragana/ke.png",
+          "audio": "syllabary/ke.mp3"
+        },
+        {
+          "romaji": "se",
+          "symbol": "せ",
+          "image": "hiragana/se.png",
+          "audio": "syllabary/se.mp3"
+        },
+        {
+          "romaji": "te",
+          "symbol": "て",
+          "image": "hiragana/te.png",
+          "audio": "syllabary/te.mp3"
+        },
+        {
+          "romaji": "ne",
+          "symbol": "ね",
+          "image": "hiragana/ne.png",
+          "audio": "syllabary/ne.mp3"
+        },
+        {
+          "romaji": "he",
+          "symbol": "へ",
+          "image": "hiragana/he.png",
+          "audio": "syllabary/he.mp3"
+        },
+        {
+          "romaji": "me",
+          "symbol": "め",
+          "image": "hiragana/me.png",
+          "audio": "syllabary/me.mp3"
+        },
+        {
+          "romaji": "",
+          "symbol": ""
+        },
+        {
+          "romaji": "re",
+          "symbol": "れ",
+          "image": "hiragana/re.png",
+          "audio": "syllabary/re.mp3"
+        },
+        {
+          "romaji": "",
+          "symbol": ""
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "o",
+          "symbol": "お",
+          "image": "hiragana/o.png",
+          "audio": "syllabary/o.mp3"
+        },
+        {
+          "romaji": "ko",
+          "symbol": "こ",
+          "image": "hiragana/ko.png",
+          "audio": "syllabary/ko.mp3"
+        },
+        {
+          "romaji": "so",
+          "symbol": "そ",
+          "image": "hiragana/so.png",
+          "audio": "syllabary/so.mp3"
+        },
+        {
+          "romaji": "to",
+          "symbol": "と",
+          "image": "hiragana/to.png",
+          "audio": "syllabary/to.mp3"
+        },
+        {
+          "romaji": "no",
+          "symbol": "の",
+          "image": "hiragana/no.png",
+          "audio": "syllabary/no.mp3"
+        },
+        {
+          "romaji": "ho",
+          "symbol": "ほ",
+          "image": "hiragana/ho.png",
+          "audio": "syllabary/ho.mp3"
+        },
+        {
+          "romaji": "mo",
+          "symbol": "も",
+          "image": "hiragana/mo.png",
+          "audio": "syllabary/mo.mp3"
+        },
+        {
+          "romaji": "yo",
+          "symbol": "よ",
+          "image": "hiragana/yo.png",
+          "audio": "syllabary/yo.mp3"
+        },
+        {
+          "romaji": "ro",
+          "symbol": "ろ",
+          "image": "hiragana/ro.png",
+          "audio": "syllabary/ro.mp3"
+        },
+        {
+          "romaji": "wo",
+          "symbol": "を",
+          "image": "hiragana/wo.png",
+          "audio": "syllabary/wo.mp3"
+        }
+      ]
+    }
+  ],
+  "additional_symbols": [
+    {
+      "column": [
+        {
+          "romaji": "ga",
+          "symbol": "が",
+          "image": "hiragana/ga.png",
+          "audio": "syllabary/ga.mp3"
+        },
+        {
+          "romaji": "za",
+          "symbol": "ざ",
+          "image": "hiragana/za.png",
+          "audio": "syllabary/za.mp3"
+        },
+        {
+          "romaji": "da",
+          "symbol": "だ",
+          "image": "hiragana/da.png",
+          "audio": "syllabary/da.mp3"
+        },
+        {
+          "romaji": "ba",
+          "symbol": "ば",
+          "image": "hiragana/ba.png",
+          "audio": "syllabary/ba.mp3"
+        },
+        {
+          "romaji": "pa",
+          "symbol": "ぱ",
+          "image": "hiragana/pa.png",
+          "audio": "syllabary/pa.mp3"
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "gi",
+          "symbol": "ぎ",
+          "image": "hiragana/gi.png",
+          "audio": "syllabary/gi.mp3"
+        },
+        {
+          "romaji": "ji",
+          "symbol": "じ",
+          "image": "hiragana/ji.png",
+          "audio": "syllabary/zi.mp3"
+        },
+        {
+          "romaji": "ji",
+          "symbol": "ぢ",
+          "image": "hiragana/di.png",
+          "audio": "syllabary/di.mp3"
+        },
+        {
+          "romaji": "bi",
+          "symbol": "び",
+          "image": "hiragana/bi.png",
+          "audio": "syllabary/bi.mp3"
+        },
+        {
+          "romaji": "pi",
+          "symbol": "ぴ",
+          "image": "hiragana/pi.png",
+          "audio": "syllabary/pi.mp3"
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "gu",
+          "symbol": "ぐ",
+          "image": "hiragana/gu.png",
+          "audio": "syllabary/gu.mp3"
+        },
+        {
+          "romaji": "zu",
+          "symbol": "ず",
+          "image": "hiragana/zu.png",
+          "audio": "syllabary/zu.mp3"
+        },
+        {
+          "romaji": "zu",
+          "symbol": "づ",
+          "image": "hiragana/du.png",
+          "audio": "syllabary/du.mp3"
+        },
+        {
+          "romaji": "bu",
+          "symbol": "ぶ",
+          "image": "hiragana/bu.png",
+          "audio": "syllabary/bu.mp3"
+        },
+        {
+          "romaji": "pu",
+          "symbol": "ぷ",
+          "image": "hiragana/pu.png",
+          "audio": "syllabary/pu.mp3"
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "ge",
+          "symbol": "げ",
+          "image": "hiragana/ge.png",
+          "audio": "syllabary/ge.mp3"
+        },
+        {
+          "romaji": "ze",
+          "symbol": "ぜ",
+          "image": "hiragana/ze.png",
+          "audio": "syllabary/ze.mp3"
+        },
+        {
+          "romaji": "de",
+          "symbol": "で",
+          "image": "hiragana/de.png",
+          "audio": "syllabary/de.mp3"
+        },
+        {
+          "romaji": "be",
+          "symbol": "べ",
+          "image": "hiragana/be.png",
+          "audio": "syllabary/be.mp3"
+        },
+        {
+          "romaji": "pe",
+          "symbol": "ぺ",
+          "image": "hiragana/pe.png",
+          "audio": "syllabary/pe.mp3"
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "go",
+          "symbol": "ご",
+          "image": "hiragana/go.png",
+          "audio": "syllabary/go.mp3"
+        },
+        {
+          "romaji": "zo",
+          "symbol": "ぞ",
+          "image": "hiragana/zo.png",
+          "audio": "syllabary/zo.mp3"
+        },
+        {
+          "romaji": "do",
+          "symbol": "ど",
+          "image": "hiragana/do.png",
+          "audio": "syllabary/do.mp3"
+        },
+        {
+          "romaji": "bo",
+          "symbol": "ぼ",
+          "image": "hiragana/bo.png",
+          "audio": "syllabary/bo.mp3"
+        },
+        {
+          "romaji": "po",
+          "symbol": "ぽ",
+          "image": "hiragana/po.png",
+          "audio": "syllabary/po.mp3"
+        }
+      ]
+    }
+  ],
+  "yoon": [
+    {
+      "column": [
+        {
+          "romaji": "kya",
+          "symbol": "きゃ",
+          "image": "hiragana/kya.png",
+          "audio": "syllabary/kya.mp3"
+
+        },
+        {
+          "romaji": "gya",
+          "symbol": "ぎゃ",
+          "image": "hiragana/gya.png",
+          "audio": "syllabary/gya.mp3"
+        },
+        {
+          "romaji": "sha",
+          "symbol": "しゃ",
+          "image": "hiragana/sya.png",
+          "audio": "syllabary/sya.mp3"
+        },
+        {
+          "romaji": "ja",
+          "symbol": "じゃ",
+          "image": "hiragana/jya.png",
+          "audio": "syllabary/jya.mp3"
+        },
+        {
+          "romaji": "cha",
+          "symbol": "ちゃ",
+          "image": "hiragana/tya.png",
+          "audio": "syllabary/tya.mp3"
+        },
+        {
+          "romaji": "nya",
+          "symbol": "にゃ",
+          "image": "hiragana/nya.png",
+          "audio": "syllabary/nya.mp3"
+        },
+        {
+          "romaji": "hya",
+          "symbol": "ひゃ",
+          "image": "hiragana/hya.png",
+          "audio": "syllabary/hya.mp3"
+        },
+        {
+          "romaji": "bya",
+          "symbol": "びゃ",
+          "image": "hiragana/bya.png",
+          "audio": "syllabary/bya.mp3"
+        },
+        {
+          "romaji": "pya",
+          "symbol": "ぴゃ",
+          "image": "hiragana/pya.png",
+          "audio": "syllabary/pya.mp3"
+        },
+        {
+          "romaji": "mya",
+          "symbol": "みゃ",
+          "image": "hiragana/mya.png",
+          "audio": "syllabary/mya.mp3"
+        },
+        {
+          "romaji": "rya",
+          "symbol": "りゃ",
+          "image": "hiragana/rya.png",
+          "audio": "syllabary/rya.mp3"
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "kyu",
+          "symbol": "きゅ",
+          "image": "hiragana/kyu.png",
+          "audio": "syllabary/kyu.mp3"
+        },
+        {
+          "romaji": "gyu",
+          "symbol": "ぎゅ",
+          "image": "hiragana/gyu.png",
+          "audio": "syllabary/gyu.mp3"
+        },
+        {
+          "romaji": "shu",
+          "symbol": "しゅ",
+          "image": "hiragana/syu.png",
+          "audio": "syllabary/syu.mp3"
+        },
+        {
+          "romaji": "ju",
+          "symbol": "じゅ",
+          "image": "hiragana/jyu.png",
+          "audio": "syllabary/jyu.mp3"
+        },
+        {
+          "romaji": "chu",
+          "symbol": "じゅ",
+          "image": "hiragana/tyu.png",
+          "audio": "syllabary/tyu.mp3"
+        },
+        {
+          "romaji": "nyu",
+          "symbol": "にゅ",
+          "image": "hiragana/nyu.png",
+          "audio": "syllabary/nyu.mp3"
+        },
+        {
+          "romaji": "hyu",
+          "symbol": "ひゅ",
+          "image": "hiragana/hyu.png",
+          "audio": "syllabary/hyu.mp3"
+        },
+        {
+          "romaji": "byu",
+          "symbol": "びゅ",
+          "image": "hiragana/byu.png",
+          "audio": "syllabary/byu.mp3"
+        },
+        {
+          "romaji": "pyu",
+          "symbol": "ぴゅ",
+          "image": "hiragana/pyu.png",
+          "audio": "syllabary/pyu.mp3"
+        },
+        {
+          "romaji": "myu",
+          "symbol": "みゅ",
+          "image": "hiragana/myu.png",
+          "audio": "syllabary/myu.mp3"
+        },
+        {
+          "romaji": "ryu",
+          "symbol": "りゅ",
+          "image": "hiragana/ryu.png",
+          "audio": "syllabary/ryu.mp3"
+        }
+      ]
+    },
+    {
+      "column": [
+        {
+          "romaji": "kyo",
+          "symbol": "きょ",
+          "image": "hiragana/kyo.png",
+          "audio": "syllabary/kyo.mp3"
+        },
+        {
+          "romaji": "gyo",
+          "symbol": "ぎょ",
+          "image": "hiragana/gyo.png",
+          "audio": "syllabary/gyo.mp3"
+        },
+        {
+          "romaji": "sho",
+          "symbol": "しょ",
+          "image": "hiragana/syo.png",
+          "audio": "syllabary/syo.mp3"
+        },
+        {
+          "romaji": "jo",
+          "symbol": "じょ",
+          "image": "hiragana/jyo.png",
+          "audio": "syllabary/jyo.mp3"
+        },
+        {
+          "romaji": "cho",
+          "symbol": "ちょ",
+          "image": "hiragana/tyo.png",
+          "audio": "syllabary/tyo.mp3"
+        },
+        {
+          "romaji": "nyo",
+          "symbol": "にょ",
+          "image": "hiragana/nyo.png",
+          "audio": "syllabary/nyo.mp3"
+        },
+        {
+          "romaji": "hyo",
+          "symbol": "ひょ",
+          "image": "hiragana/hyo.png",
+          "audio": "syllabary/hyo.mp3"
+        },
+        {
+          "romaji": "byo",
+          "symbol": "びょ",
+          "image": "hiragana/byo.png",
+          "audio": "syllabary/byo.mp3"
+        },
+        {
+          "romaji": "pyo",
+          "symbol": "ぴょ",
+          "image": "hiragana/pyo.png",
+          "audio": "syllabary/pyo.mp3"
+        },
+        {
+          "romaji": "myo",
+          "symbol": "みょ",
+          "image": "hiragana/myo.png",
+          "audio": "syllabary/myo.mp3"
+        },
+        {
+          "romaji": "ryo",
+          "symbol": "りょ",
+          "image": "hiragana/ryo.png",
+          "audio": "syllabary/ryo.mp3"
+        }
+      ]
+    }
+  ]
+}

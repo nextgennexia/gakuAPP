@@ -11,14 +11,17 @@ import '../../css/views/Header.scss';
 
 export default React.createClass({
   mixins: [StateMixin.connect(AppStore)],
+  renderBackButton: function() {
+    if (!this.state.hasMainPage) {
+      return <IconButton className='arrow-back'
+                         iconClassName='material-icons'
+                         onClick={hashHistory.goBack}>arrow_back</IconButton>
+    }
+  },
   render: function () {
     return (
       <header　className='header'>
-        {
-          this.state.hasMainPage == true
-            ? ''
-            : <IconButton className='arrow-back' iconClassName='material-icons' onClick={hashHistory.goBack}>arrow_back</IconButton>
-        }
+        {this.renderBackButton()}
         <Link className='gaku-logo' to='/'>学APP </Link>
         <IconButton className='menu' iconClassName='material-icons'>menu</IconButton>
       </header>
