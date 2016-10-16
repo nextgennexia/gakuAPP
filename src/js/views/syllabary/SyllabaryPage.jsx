@@ -16,7 +16,7 @@ export default React.createClass({
   mixins: [StateMixin.connect(SyllabaryStore)],
   syllabaryName: '',
   currentPart: {},
-  currentSyllabary: {},
+  currentPractice: {},
   render: function() {
     let
       syllabaryName,
@@ -24,8 +24,7 @@ export default React.createClass({
       syllabaryProps = {},
       symbolProps = {
         syllabary: syllabaryProps.syllabary,
-        initialSymbol: this.state.initialSymbol || '',
-        currentSymbol: this.currentSymbol || ''
+        initialSymbol: this.state.initialSymbol || ''
       };
 
     if (this.props.syllabary === 'hiragana') {

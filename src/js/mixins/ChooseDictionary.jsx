@@ -2,7 +2,7 @@
 import React from 'react';
 import StateMixin from 'reflux-state-mixin';
 //Actions
-import Actions from '../actions/Actions';
+import Actions from '../actions/DictionaryActions';
 //Store
 import DictionaryStores from '../stores/DictionaryStore';
 
@@ -17,6 +17,9 @@ export default {
     return {
       textField: ''
     };
+  },
+  onChange: function(event) {
+    this.setState({textField: event.target.value});
   },
   convertToKana: function (event) {
     let

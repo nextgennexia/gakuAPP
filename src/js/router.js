@@ -34,9 +34,12 @@ ReactDOM.render(
       {/* <=== Syllabary */}
       {/* ===> Practice */}
       <Route path='/practice' component={Practice} />
-      <Route path='/practice/hiragana/gojuon' component={() => (<PracticeForm section='hiragana' subSection='gojuon' />)} />
-      <Route path='/practice/hiragana/additional-symbols' component={() => (<PracticeForm section='hiragana' subSection='additional_symbols' />)} />
-      <Route path='/practice/hiragana/yoon' component={() => (<PracticeForm section='hiragana' subSection='yoon' />)} />
+      <Route path='/practice/hiragana/gojuon' component={() => (<PracticeForm section='practice1' />)} />
+      <Route path='/practice/hiragana/additional-symbols' component={() => (<PracticeForm section='practice2' />)} />
+      <Route path='/practice/hiragana/yoon' component={() => (<PracticeForm section='practice3' />)} />
+			<Route path='/practice/katakana/gojuon' component={() => (<PracticeForm section='practice4' />)} />
+			<Route path='/practice/katakana/additional-symbols' component={() => (<PracticeForm section='practice5' />)} />
+			<Route path='/practice/katakana/yoon' component={() => (<PracticeForm section='practice6' />)} />
       {/* <=== Practice */}
 			<Route path='/new-words' component={NewWords} />
 			<Route path='*' component={HomePage} />

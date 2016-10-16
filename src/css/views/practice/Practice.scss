@@ -1,7 +1,8 @@
 .practice {
+  padding: 0;
   .menu { text-align: left; }
   .enum,
   .content-container { display: inline-block; }
   .content-container { margin-left: 20px; vertical-align: middle; }
-  .symbol-info { position: static; }
+  .symbol-info { position: static; background: none; }
 }

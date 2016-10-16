@@ -58,11 +58,19 @@
       "enum": "３"
     },
     {
-      "module": "practice/katakana",
-      "furigana": "カタカナのれんしゅう",
-      "kanji": "カタカナの練習で",
-      "local_lang": "Практика по катакане",
+      "module": "practice/katakana/gojuon",
+      "local_lang": "Практика по катакане: основные символы 五十音",
       "enum": "４"
+    },
+    {
+      "module": "practice/katakana/gojuon",
+      "local_lang": "Практика по катакане: дополнительные символы",
+      "enum": "５"
+    },
+    {
+      "module": "practice/katakana/gojuon",
+      "local_lang": "Практика по катакане: 拗音",
+      "enum": "6"
     }
   ]
 }

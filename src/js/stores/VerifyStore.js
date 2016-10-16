@@ -3,8 +3,6 @@ import Reflux from 'reflux';
 import StateMixin from 'reflux-state-mixin';
 //Actions
 import VerifyActions from '../actions/VerifyActions';
-//Database
-import Users from '../../db/Users.json';
 
 export default Reflux.createStore({
   mixins: [StateMixin.store],
@@ -13,16 +11,12 @@ export default Reflux.createStore({
     return {
       verified: {
         message: '',
-        isRight: ''
+        isRight: false
       }
     };
   },
-  onVerifyResult: function(userAnswer, rightAnswer, moduleName, subModuleName) {
-    if (userAnswer.trim() === rightAnswer) {
-      Users[0].modules[moduleName][subModuleName].push({
-        key: rightAnswer,
-        value: true
-      });
+  onVerifyResult: function(userAnswer, rightAnswer) {
+    if (userAnswer.toLowerCase() === rightAnswer) {
       this.setState({
         verified: {
           message: '',
@@ -38,5 +32,13 @@ export default Reflux.createStore({
       });
     }
     this.trigger(this.state.verified);
+  },
+  onClear: function() {
+    this.setState({
+      verified: {
+        message: '',
+        isRight: false
+      }
+    });
   }
 });

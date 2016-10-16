@@ -2,7 +2,7 @@
 import Reflux from 'reflux';
 import StateMixin from 'reflux-state-mixin';
 //Actions
-import Actions from '../actions/Actions';
+import Actions from '../actions/DictionaryActions';
 //Database
 import HiraganaDictionary from '../../db/hiraganaDictionary.json';
 import KatakanaDictionary from '../../db/katakanaDictionary.json';

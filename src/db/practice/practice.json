@@ -1,0 +1,1259 @@
+{
+  "practice1": [
+    {
+      "answer": "a",
+      "questionImage": "hiragana/a.png",
+      "resultAudio": "syllabary/a.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ka",
+      "questionImage": "hiragana/ka.png",
+      "resultAudio": "syllabary/ka.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "sa",
+      "questionImage": "hiragana/sa.png",
+      "resultAudio": "syllabary/sa.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ta",
+      "questionImage": "hiragana/ta.png",
+      "resultAudio": "syllabary/ta.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "na",
+      "questionImage": "hiragana/na.png",
+      "resultAudio": "syllabary/na.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ha",
+      "questionImage": "hiragana/ha.png",
+      "resultAudio": "syllabary/ha.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ma",
+      "questionImage": "hiragana/ma.png",
+      "resultAudio": "syllabary/ma.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ya",
+      "questionImage": "hiragana/ya.png",
+      "resultAudio": "syllabary/ya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ra",
+      "questionImage": "hiragana/ra.png",
+      "resultAudio": "syllabary/ra.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "wa",
+      "questionImage": "hiragana/wa.png",
+      "resultAudio": "syllabary/wa.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "n",
+      "questionImage": "hiragana/n.png",
+      "resultAudio": "syllabary/n.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "i",
+      "questionImage": "hiragana/i.png",
+      "resultAudio": "syllabary/i.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ki",
+      "questionImage": "hiragana/ki.png",
+      "resultAudio": "syllabary/ki.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "shi",
+      "questionImage": "hiragana/si.png",
+      "resultAudio": "syllabary/si.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "chi",
+      "questionImage": "hiragana/ti.png",
+      "resultAudio": "syllabary/ti.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ni",
+      "questionImage": "hiragana/ni.png",
+      "resultAudio": "syllabary/ni.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "hi",
+      "questionImage": "hiragana/hi.png",
+      "resultAudio": "syllabary/hi.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "mi",
+      "questionImage": "hiragana/mi.png",
+      "resultAudio": "syllabary/mi.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ri",
+      "questionImage": "hiragana/ri.png",
+      "resultAudio": "syllabary/ri.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "u",
+      "questionImage": "hiragana/u.png",
+      "resultAudio": "syllabary/u.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ku",
+      "questionImage": "hiragana/ku.png",
+      "resultAudio": "syllabary/ku.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "su",
+      "questionImage": "hiragana/su.png",
+      "resultAudio": "syllabary/su.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "tsu",
+      "questionImage": "hiragana/tu.png",
+      "resultAudio": "syllabary/tu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "nu",
+      "questionImage": "hiragana/nu.png",
+      "resultAudio": "syllabary/nu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "fu",
+      "questionImage": "hiragana/fu.png",
+      "resultAudio": "syllabary/hu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "mu",
+      "questionImage": "hiragana/mu.png",
+      "resultAudio": "syllabary/mu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "yu",
+      "questionImage": "hiragana/yu.png",
+      "resultAudio": "syllabary/yu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ru",
+      "questionImage": "hiragana/ru.png",
+      "resultAudio": "syllabary/ru.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "e",
+      "questionImage": "hiragana/e.png",
+      "resultAudio": "syllabary/e.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ke",
+      "questionImage": "hiragana/ke.png",
+      "resultAudio": "syllabary/ke.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "se",
+      "questionImage": "hiragana/se.png",
+      "resultAudio": "syllabary/se.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "te",
+      "questionImage": "hiragana/te.png",
+      "resultAudio": "syllabary/te.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ne",
+      "questionImage": "hiragana/ne.png",
+      "resultAudio": "syllabary/ne.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "he",
+      "questionImage": "hiragana/he.png",
+      "resultAudio": "syllabary/he.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "me",
+      "questionImage": "hiragana/me.png",
+      "resultAudio": "syllabary/me.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "re",
+      "questionImage": "hiragana/re.png",
+      "resultAudio": "syllabary/re.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "o",
+      "questionImage": "hiragana/o.png",
+      "resultAudio": "syllabary/o.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ko",
+      "questionImage": "hiragana/ko.png",
+      "resultAudio": "syllabary/ko.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "so",
+      "questionImage": "hiragana/so.png",
+      "resultAudio": "syllabary/so.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "to",
+      "questionImage": "hiragana/to.png",
+      "resultAudio": "syllabary/to.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "no",
+      "questionImage": "hiragana/no.png",
+      "resultAudio": "syllabary/no.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ho",
+      "questionImage": "hiragana/ho.png",
+      "resultAudio": "syllabary/ho.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "mo",
+      "questionImage": "hiragana/mo.png",
+      "resultAudio": "syllabary/mo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "yo",
+      "questionImage": "hiragana/yo.png",
+      "resultAudio": "syllabary/yo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ro",
+      "questionImage": "hiragana/ro.png",
+      "resultAudio": "syllabary/ro.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "wo",
+      "questionImage": "hiragana/wo.png",
+      "resultAudio": "syllabary/wo.mp3",
+      "hasConverting": false
+    }
+  ],
+  "practice2": [
+    {
+      "answer": "ga",
+      "questionImage": "hiragana/ga.png",
+      "resultAudio": "syllabary/ga.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "za",
+      "questionImage": "hiragana/za.png",
+      "resultAudio": "syllabary/za.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "da",
+      "questionImage": "hiragana/da.png",
+      "resultAudio": "syllabary/da.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ba",
+      "questionImage": "hiragana/ba.png",
+      "resultAudio": "syllabary/ba.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "pa",
+      "questionImage": "hiragana/pa.png",
+      "resultAudio": "syllabary/pa.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "gi",
+      "questionImage": "hiragana/gi.png",
+      "resultAudio": "syllabary/gi.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ji",
+      "questionImage": "hiragana/ji.png",
+      "resultAudio": "syllabary/zi.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ji",
+      "questionImage": "hiragana/di.png",
+      "resultAudio": "syllabary/di.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "bi",
+      "questionImage": "hiragana/bi.png",
+      "resultAudio": "syllabary/bi.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "pi",
+      "questionImage": "hiragana/pi.png",
+      "resultAudio": "syllabary/pi.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "gu",
+      "questionImage": "hiragana/gu.png",
+      "resultAudio": "syllabary/gu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "zu",
+      "questionImage": "hiragana/zu.png",
+      "resultAudio": "syllabary/zu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "zu",
+      "questionImage": "hiragana/du.png",
+      "resultAudio": "syllabary/du.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "bu",
+      "questionImage": "hiragana/bu.png",
+      "resultAudio": "syllabary/bu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "pu",
+      "questionImage": "hiragana/pu.png",
+      "resultAudio": "syllabary/pu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ge",
+      "questionImage": "hiragana/ge.png",
+      "resultAudio": "syllabary/ge.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ze",
+      "questionImage": "hiragana/ze.png",
+      "resultAudio": "syllabary/ze.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "de",
+      "questionImage": "hiragana/de.png",
+      "resultAudio": "syllabary/de.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "be",
+      "questionImage": "hiragana/be.png",
+      "resultAudio": "syllabary/be.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "pe",
+      "questionImage": "hiragana/pe.png",
+      "resultAudio": "syllabary/pe.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "go",
+      "questionImage": "hiragana/go.png",
+      "resultAudio": "syllabary/go.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "zo",
+      "questionImage": "hiragana/zo.png",
+      "resultAudio": "syllabary/zo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "do",
+      "questionImage": "hiragana/do.png",
+      "resultAudio": "syllabary/do.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "bo",
+      "questionImage": "hiragana/bo.png",
+      "resultAudio": "syllabary/bo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "po",
+      "questionImage": "hiragana/po.png",
+      "resultAudio": "syllabary/po.mp3",
+      "hasConverting": false
+    }
+  ],
+  "practice3": [
+    {
+      "answer": "kya",
+      "questionImage": "hiragana/kya.png",
+      "resultAudio": "syllabary/kya.mp3",
+      "hasConverting": false
+
+    },
+    {
+      "answer": "gya",
+      "questionImage": "hiragana/gya.png",
+      "resultAudio": "syllabary/gya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "sha",
+      "questionImage": "hiragana/sya.png",
+      "resultAudio": "syllabary/sya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ja",
+      "questionImage": "hiragana/jya.png",
+      "resultAudio": "syllabary/jya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "cha",
+      "questionImage": "hiragana/tya.png",
+      "resultAudio": "syllabary/tya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "nya",
+      "questionImage": "hiragana/nya.png",
+      "resultAudio": "syllabary/nya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "hya",
+      "questionImage": "hiragana/hya.png",
+      "resultAudio": "syllabary/hya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "bya",
+      "questionImage": "hiragana/bya.png",
+      "resultAudio": "syllabary/bya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "pya",
+      "questionImage": "hiragana/pya.png",
+      "resultAudio": "syllabary/pya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "mya",
+      "questionImage": "hiragana/mya.png",
+      "resultAudio": "syllabary/mya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "rya",
+      "questionImage": "hiragana/rya.png",
+      "resultAudio": "syllabary/rya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "kyu",
+      "questionImage": "hiragana/kyu.png",
+      "resultAudio": "syllabary/kyu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "gyu",
+      "questionImage": "hiragana/gyu.png",
+      "resultAudio": "syllabary/gyu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "shu",
+      "questionImage": "hiragana/syu.png",
+      "resultAudio": "syllabary/syu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ju",
+      "questionImage": "hiragana/jyu.png",
+      "resultAudio": "syllabary/jyu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "chu",
+      "questionImage": "hiragana/tyu.png",
+      "resultAudio": "syllabary/tyu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "nyu",
+      "questionImage": "hiragana/nyu.png",
+      "resultAudio": "syllabary/nyu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "hyu",
+      "questionImage": "hiragana/hyu.png",
+      "resultAudio": "syllabary/hyu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "byu",
+      "questionImage": "hiragana/byu.png",
+      "resultAudio": "syllabary/byu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "pyu",
+      "questionImage": "hiragana/pyu.png",
+      "resultAudio": "syllabary/pyu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "myu",
+      "questionImage": "hiragana/myu.png",
+      "resultAudio": "syllabary/myu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ryu",
+      "questionImage": "hiragana/ryu.png",
+      "resultAudio": "syllabary/ryu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "kyo",
+      "questionImage": "hiragana/kyo.png",
+      "resultAudio": "syllabary/kyo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "gyo",
+      "questionImage": "hiragana/gyo.png",
+      "resultAudio": "syllabary/gyo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "sho",
+      "questionImage": "hiragana/syo.png",
+      "resultAudio": "syllabary/syo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "jo",
+      "questionImage": "hiragana/jyo.png",
+      "resultAudio": "syllabary/jyo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "cho",
+      "questionImage": "hiragana/tyo.png",
+      "resultAudio": "syllabary/tyo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "nyo",
+      "questionImage": "hiragana/nyo.png",
+      "resultAudio": "syllabary/nyo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "hyo",
+      "questionImage": "hiragana/hyo.png",
+      "resultAudio": "syllabary/hyo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "byo",
+      "questionImage": "hiragana/byo.png",
+      "resultAudio": "syllabary/byo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "pyo",
+      "questionImage": "hiragana/pyo.png",
+      "resultAudio": "syllabary/pyo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "myo",
+      "questionImage": "hiragana/myo.png",
+      "resultAudio": "syllabary/myo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ryo",
+      "questionImage": "hiragana/ryo.png",
+      "resultAudio": "syllabary/ryo.mp3",
+      "hasConverting": false
+    }
+  ],
+  "practice4": [
+    {
+      "answer": "a",
+      "questionImage": "katakana/a.png",
+      "resultAudio": "syllabary/a.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ka",
+      "questionImage": "katakana/ka.png",
+      "resultAudio": "syllabary/ka.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "sa",
+      "questionImage": "katakana/sa.png",
+      "resultAudio": "syllabary/sa.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ta",
+      "questionImage": "katakana/ta.png",
+      "resultAudio": "syllabary/ta.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "na",
+      "questionImage": "katakana/na.png",
+      "resultAudio": "syllabary/na.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ha",
+      "questionImage": "katakana/ha.png",
+      "resultAudio": "syllabary/ha.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ma",
+      "questionImage": "katakana/ma.png",
+      "resultAudio": "syllabary/ma.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ya",
+      "questionImage": "katakana/ya.png",
+      "resultAudio": "syllabary/ya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ra",
+      "questionImage": "katakana/ra.png",
+      "resultAudio": "syllabary/ra.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "wa",
+      "questionImage": "katakana/wa.png",
+      "resultAudio": "syllabary/wa.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "n",
+      "questionImage": "katakana/n.png",
+      "resultAudio": "syllabary/n.mp3",
+      "hasConverting": false
+    },{
+      "answer": "i",
+      "questionImage": "katakana/i.png",
+      "resultAudio": "syllabary/i.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ki",
+      "questionImage": "katakana/ki.png",
+      "resultAudio": "syllabary/ki.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "shi",
+      "questionImage": "katakana/si.png",
+      "resultAudio": "syllabary/si.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "chi",
+      "questionImage": "katakana/ti.png",
+      "resultAudio": "syllabary/ti.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ni",
+      "questionImage": "katakana/ni.png",
+      "resultAudio": "syllabary/ni.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "hi",
+      "questionImage": "katakana/hi.png",
+      "resultAudio": "syllabary/hi.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "mi",
+      "questionImage": "katakana/mi.png",
+      "resultAudio": "syllabary/mi.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ri",
+      "questionImage": "katakana/ri.png",
+      "resultAudio": "syllabary/ri.mp3",
+      "hasConverting": false
+    },{
+      "answer": "u",
+      "questionImage": "katakana/u.png",
+      "resultAudio": "syllabary/u.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ku",
+      "questionImage": "katakana/ku.png",
+      "resultAudio": "syllabary/ku.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "su",
+      "questionImage": "katakana/su.png",
+      "resultAudio": "syllabary/su.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "tsu",
+      "questionImage": "katakana/tu.png",
+      "resultAudio": "syllabary/tu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "nu",
+      "questionImage": "katakana/nu.png",
+      "resultAudio": "syllabary/nu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "fu",
+      "questionImage": "katakana/fu.png",
+      "resultAudio": "syllabary/hu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "mu",
+      "questionImage": "katakana/mu.png",
+      "resultAudio": "syllabary/mu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "yu",
+      "questionImage": "katakana/yu.png",
+      "resultAudio": "syllabary/yu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ru",
+      "questionImage": "katakana/ru.png",
+      "resultAudio": "syllabary/ru.mp3",
+      "hasConverting": false
+    },{
+      "answer": "e",
+      "questionImage": "katakana/e.png",
+      "resultAudio": "syllabary/e.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ke",
+      "questionImage": "katakana/ke.png",
+      "resultAudio": "syllabary/ke.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "se",
+      "questionImage": "katakana/se.png",
+      "resultAudio": "syllabary/se.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "te",
+      "questionImage": "katakana/te.png",
+      "resultAudio": "syllabary/te.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ne",
+      "questionImage": "katakana/ne.png",
+      "resultAudio": "syllabary/ne.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "he",
+      "questionImage": "katakana/he.png",
+      "resultAudio": "syllabary/he.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "me",
+      "questionImage": "katakana/me.png",
+      "resultAudio": "syllabary/me.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "re",
+      "questionImage": "katakana/re.png",
+      "resultAudio": "syllabary/re.mp3",
+      "hasConverting": false
+    },{
+      "answer": "o",
+      "questionImage": "katakana/o.png",
+      "resultAudio": "syllabary/o.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ko",
+      "questionImage": "katakana/ko.png",
+      "resultAudio": "syllabary/ko.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "so",
+      "questionImage": "katakana/so.png",
+      "resultAudio": "syllabary/so.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "to",
+      "questionImage": "katakana/to.png",
+      "resultAudio": "syllabary/to.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "no",
+      "questionImage": "katakana/no.png",
+      "resultAudio": "syllabary/no.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ho",
+      "questionImage": "katakana/ho.png",
+      "resultAudio": "syllabary/ho.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "mo",
+      "questionImage": "katakana/mo.png",
+      "resultAudio": "syllabary/mo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "yo",
+      "questionImage": "katakana/yo.png",
+      "resultAudio": "syllabary/yo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ro",
+      "questionImage": "katakana/ro.png",
+      "resultAudio": "syllabary/ro.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "wo",
+      "questionImage": "katakana/wo.png",
+      "resultAudio": "syllabary/wo.mp3",
+      "hasConverting": false
+    }
+  ],
+  "practice5": [
+    {
+      "answer": "ga",
+      "questionImage": "katakana/ga.png",
+      "resultAudio": "syllabary/ga.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "za",
+      "questionImage": "katakana/za.png",
+      "resultAudio": "syllabary/za.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "da",
+      "questionImage": "katakana/da.png",
+      "resultAudio": "syllabary/da.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ba",
+      "questionImage": "katakana/ba.png",
+      "resultAudio": "syllabary/ba.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "pa",
+      "questionImage": "katakana/pa.png",
+      "resultAudio": "syllabary/pa.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "gi",
+      "questionImage": "katakana/gi.png",
+      "resultAudio": "syllabary/gi.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ji",
+      "questionImage": "katakana/ji.png",
+      "resultAudio": "syllabary/zi.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ji",
+      "questionImage": "katakana/di.png",
+      "resultAudio": "syllabary/di.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "bi",
+      "questionImage": "katakana/bi.png",
+      "resultAudio": "syllabary/bi.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "pi",
+      "questionImage": "katakana/pi.png",
+      "resultAudio": "syllabary/pi.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "gu",
+      "questionImage": "katakana/gu.png",
+      "resultAudio": "syllabary/gu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "zu",
+      "questionImage": "katakana/zu.png",
+      "resultAudio": "syllabary/zu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "zu",
+      "questionImage": "katakana/du.png",
+      "resultAudio": "syllabary/du.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "bu",
+      "questionImage": "katakana/bu.png",
+      "resultAudio": "syllabary/bu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "pu",
+      "questionImage": "katakana/pu.png",
+      "resultAudio": "syllabary/pu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ge",
+      "questionImage": "katakana/ge.png",
+      "resultAudio": "syllabary/ge.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ze",
+      "questionImage": "katakana/ze.png",
+      "resultAudio": "syllabary/ze.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "de",
+      "questionImage": "katakana/de.png",
+      "resultAudio": "syllabary/de.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "be",
+      "questionImage": "katakana/be.png",
+      "resultAudio": "syllabary/be.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "pe",
+      "questionImage": "katakana/pe.png",
+      "resultAudio": "syllabary/pe.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "go",
+      "questionImage": "katakana/go.png",
+      "resultAudio": "syllabary/go.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "zo",
+      "questionImage": "katakana/zo.png",
+      "resultAudio": "syllabary/zo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "do",
+      "questionImage": "katakana/do.png",
+      "resultAudio": "syllabary/do.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "bo",
+      "questionImage": "katakana/bo.png",
+      "resultAudio": "syllabary/bo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "po",
+      "questionImage": "katakana/po.png",
+      "resultAudio": "syllabary/po.mp3",
+      "hasConverting": false
+    }
+  ],
+  "practice6": [
+    {
+      "answer": "kya",
+      "questionImage": "katakana/kya.png",
+      "resultAudio": "syllabary/kya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "gya",
+      "questionImage": "katakana/gya.png",
+      "resultAudio": "syllabary/gya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "sha",
+      "questionImage": "katakana/sya.png",
+      "resultAudio": "syllabary/sya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ja",
+      "questionImage": "katakana/jya.png",
+      "resultAudio": "syllabary/jya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "cha",
+      "questionImage": "katakana/tya.png",
+      "resultAudio": "syllabary/tya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "nya",
+      "questionImage": "katakana/nya.png",
+      "resultAudio": "syllabary/nya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "hya",
+      "questionImage": "katakana/hya.png",
+      "resultAudio": "syllabary/hya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "bya",
+      "questionImage": "katakana/bya.png",
+      "resultAudio": "syllabary/bya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "pya",
+      "questionImage": "katakana/pya.png",
+      "resultAudio": "syllabary/pya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "mya",
+      "questionImage": "katakana/mya.png",
+      "resultAudio": "syllabary/mya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "rya",
+      "questionImage": "katakana/rya.png",
+      "resultAudio": "syllabary/rya.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "kyu",
+      "questionImage": "katakana/kyu.png",
+      "resultAudio": "syllabary/kyu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "gyu",
+      "questionImage": "katakana/gyu.png",
+      "resultAudio": "syllabary/gyu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "shu",
+      "questionImage": "katakana/syu.png",
+      "resultAudio": "syllabary/syu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ju",
+      "questionImage": "katakana/jyu.png",
+      "resultAudio": "syllabary/jyu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "chu",
+      "questionImage": "katakana/tyu.png",
+      "resultAudio": "syllabary/tyu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "nyu",
+      "questionImage": "katakana/nyu.png",
+      "resultAudio": "syllabary/nyu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "hyu",
+      "questionImage": "katakana/hyu.png",
+      "resultAudio": "syllabary/hyu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "byu",
+      "questionImage": "katakana/byu.png",
+      "resultAudio": "syllabary/byu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "pyu",
+      "questionImage": "katakana/pyu.png",
+      "resultAudio": "syllabary/pyu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "myu",
+      "questionImage": "katakana/myu.png",
+      "resultAudio": "syllabary/myu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ryu",
+      "questionImage": "katakana/ryu.png",
+      "resultAudio": "syllabary/ryu.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "kyo",
+      "questionImage": "katakana/kyo.png",
+      "resultAudio": "syllabary/kyo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "gyo",
+      "questionImage": "katakana/gyo.png",
+      "resultAudio": "syllabary/gyo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "sho",
+      "questionImage": "katakana/syo.png",
+      "resultAudio": "syllabary/syo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "jo",
+      "questionImage": "katakana/jyo.png",
+      "resultAudio": "syllabary/jyo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "cho",
+      "questionImage": "katakana/tyo.png",
+      "resultAudio": "syllabary/tyo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "nyo",
+      "questionImage": "katakana/nyo.png",
+      "resultAudio": "syllabary/nyo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "hyo",
+      "questionImage": "katakana/hyo.png",
+      "resultAudio": "syllabary/hyo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "byo",
+      "questionImage": "katakana/byo.png",
+      "resultAudio": "syllabary/byo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "pyo",
+      "questionImage": "katakana/pyo.png",
+      "resultAudio": "syllabary/pyo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "myo",
+      "questionImage": "katakana/myo.png",
+      "resultAudio": "syllabary/myo.mp3",
+      "hasConverting": false
+    },
+    {
+      "answer": "ryo",
+      "questionImage": "katakana/ryo.png",
+      "resultAudio": "syllabary/ryo.mp3",
+      "hasConverting": false
+    }
+  ]
+}
